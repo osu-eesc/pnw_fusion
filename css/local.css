@@ -1,0 +1,579 @@
+/* $Id: local-sample.css,v 1.1 2009/08/19 04:28:52 sociotech Exp $ */
+
+/****************************/
+/* LOCAL CSS                */
+/****************************/
+
+/* Put your custom CSS and CSS overrides in this file and  */
+/* rename it local.css.  By restricting your CSS changes   */
+/* to local.css, your changes will not be overwritten when */
+/* upgrading to a new version of this theme.  You can also */
+/* use a local-rtl.css file for the equivalent in RTL.     */
+
+/* Steps to activate local.css:                       */
+/* 1. Add your custom CSS to this file                */
+/* 2. Rename this file to local.css                   */
+/* 3. Clear cached data at admin/settings/performance */
+@font-face {
+    font-family: 'EksjaExtremesThin';
+    src: url(http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-thin-webfont.eot);
+    src: local('☺'), url(http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-thin-webfont.woff) format('woff'), url(http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-thin-webfont.ttf) format('truetype'), url(http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-thin-webfont.svg#webfont) format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'EksjaExtremesRegular';
+    src: url(http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-regular-webfont.eot);
+    src: local('☺'), url(http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-regular-webfont.woff) format('woff'), url(http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-regular-webfont.ttf) format('truetype'), url(http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-regular-webfont.svg#webfont) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'EksjaExtremesBold';
+    src: url(http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-bold-webfont.eot);
+    src: local('☺'), url(http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-bold-webfont.woff) format('woff'), url(http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-bold-webfont.ttf) format('truetype'), url(http://oregonstate.edu/osuhomepage/css/fonts/Eksja/Eksja-bold-webfont.svg#webfont) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*--------------------------Agrichemicals Table------------------------------
+---------------------------------------------------------------------------*/
+	#page-inner {
+		background: url('../images/eesc/bg_ilr_vert.png') center repeat-y;
+	}
+	div.view-all-agrichemicals table {
+		background: #FFFFFF;
+		border: 1px solid #737373;
+	}
+
+	div.view-all-agrichemicals table tr {
+		vertical-align: top;
+	}
+	
+	div.view-all-agrichemicals table td {
+		border: 1px solid #737373;
+	}
+
+	div.view-all-agrichemicals div.views-field-name {
+		font-weight: bold;
+		color: #000000;
+	}
+	
+	div.views-field-name {
+		font-size: 1.25em;
+		color: #535353;
+	}
+
+	h1, h1.title {
+		font-size: 200%;
+	}
+/*--------------------------Agrichemicals Block------------------------------
+---------------------------------------------------------------------------*/
+	
+	div.view-display-id-block_2 {
+		text-transform: lowercase;
+	}
+	
+
+/*------------------------------Node Links-----------------------------------
+---------------------------------------------------------------------------*/
+
+	body.node-type-pnw-article div.links-inline {
+		float: right;
+		margin-right: 10px;
+	}
+	
+	body.node-type-pnw-article div.links-inline .add-link {
+		margin-right: 10px;
+	}
+
+
+
+/*--------------------------------Search-------------------------------------
+---------------------------------------------------------------------------*/
+
+	#block-views--exp-taxonomy_search-default {
+		overflow: visible;
+	}
+	
+	#block-views--exp-taxonomy_search-default div.views-exposed-widgets {
+		float: right;
+	}
+	
+	#block-views--exp-taxonomy_search-default div.views-exposed-widgets div.views-exposed-widget {
+		padding: 0.5em 0 0 0;
+	}
+
+	#block-views--exp-taxonomy_search-default div.views-exposed-widgets {
+		float: right;
+	}
+	
+	#block-views--exp-taxonomy_search-default div.views-exposed-widgets div.views-exposed-widget {
+		padding: 0.5em 0 0 0;
+	}
+	
+	a:link, a:hover, a:active, a:visited
+	{
+		color: #0f7d85;
+	}
+/*------------------------------Primary Menu---------------------------------
+---------------------------------------------------------------------------*/
+#megamenu-primary-links {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+#block-megamenu-0 > .inner {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.megamenu-menu, .megamenu-parent {
+	z-index: 100 !important;
+}
+.megamenu-skin-minimal {
+	background-color: transparent;
+}
+
+.megamenu-skin-minimal .megamenu-title {
+	font-size:100%;
+	font-weight:normal;
+}
+
+.megamenu-skin-minimal .megamenu-bin {
+	background-color:#fefefe;
+	border: 1px solid #999;
+	-moz-border-radius:0.583em;
+	-webkit-border-radius:0.583em;
+	border-radius:0.583em;
+	-moz-border-radius-topleft:0;
+	-webkit-border-top-left-radius:0;
+	border-top-left-radius:0;
+	-moz-border-radius-topright:0;
+	-webkit-border-top-right-radius:0;
+	border-top-right-radius:0;
+	-webkit-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.2),0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.2),0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.2),0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.megamenu-skin-minimal .megamenu-slot {
+	margin-right: 8px;
+	border-bottom: none;
+	list-style-type: none;
+}
+.megamenu-skin-minimal .megamenu-slot, .megamenu-skin-minimal .megamenu-items, .megamenu-skin-minimal .megamenu-item {
+	list-style-type: none;
+	list-style-image: none;
+}
+.megamenu-skin-minimal .megamenu-slot-title,
+.megamenu-skin-minimal .megamenu-slot-title a {
+	color:#333; /* white */
+	font-size:100%;
+	text-align:center;
+	text-transform:uppercase;
+}
+.megamenu-skin-minimal .megamenu-parent-title a {
+	font-family: 'EksjaExtremesRegular';
+	color: #fff !important;
+	text-decoration: none !important;
+	line-height: 37px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 13px;
+}
+.megamenu-skin-minimal .megamenu-link {
+	font-size:85%;
+}
+#megamenu-mlid-894 .megamenu-bin {
+	width: 644px !important;
+}
+#megamenu-mlid-894 .megamenu-bin > li {
+	margin-top: 8px !important;
+	padding-bottom: 8px !important;
+	padding-right: 4px !important;
+}
+.megamenu-bin {
+	text-align: left;
+}
+.megamenu-bin > li:first-child {
+	margin-left: 8px;
+}
+.megamenu-bin li {
+	line-height: 22px !important;
+}
+.megamenu-bin h3, .megamenu-bin a {
+	font-size: 11px !important;
+}
+#megamenu-mlid-894 .megamenu-bin > li.last {
+	margin-top: 1em;
+}
+.megamenu-slot-title {
+	background-color: transparent !important;
+	text-transform: none !important;
+	text-align: left !important;
+	font-weight: bold !important;
+	margin-bottom: 4px !important;
+}
+.megamenu-item a {
+	color: #333;
+	text-decoration: none !important;
+}
+.megamenu-item a:hover {
+	color: #0F7D85;
+}
+/*---------------------------Overall Theme Look------------------------------
+---------------------------------------------------------------------------*/
+
+	html {
+		background-color: #114021;
+	}
+	
+	body {
+		background: none repeat scroll 0 0 #EDECEC;
+	}
+	h1, h2 {
+		font-family: 'EksjaExtremesRegular';
+		color: #0f7d85;
+	}
+
+	.header-primary-menu-wrapper {
+		border: none;
+	}
+	
+	#header-group-wrapper {
+		background: url("../images/eesc/banner.png") repeat scroll 0 0 #1D7534;
+	}
+	
+	#header-group {
+		background: url("../images/eesc/header_main.png") no-repeat scroll center transparent;
+		height: 139px;
+		width: 100%;
+	}
+  #header-group-inner {
+	width: 960px;
+	height: 139px;
+	margin: auto;
+}
+	#login-button {
+		float: right;
+		text-align: center;
+		position: relative;
+		margin-right: 15px;
+	}
+	
+	#login-button a.logout-link {
+		position: relative;
+		top: 8px;
+		padding: 9px 16px;
+	}
+  .breadcrumbs .inner {
+	  border: none;
+	  background-color: transparent;
+	  margin-left: 10px !important;
+  }
+  .breadcrumb a {
+		padding: 0px 5px;
+  }
+	#login-button a.login-link {
+		position: relative;
+		top: 8px;
+		padding: 9px 20px;
+		text-decoration: none !important;
+	}
+	
+	#preface-top-wrapper {
+		background: url("../images/eesc/banner_shadow.png") repeat-x scroll 0 0;
+	}
+	#preface-top-inner {
+		background: url("../images/eesc/header_menu_bg.png") no-repeat 0 0;
+		height: 38px;
+	}
+	#header-site-info-inner {
+		margin: 0;
+	}
+	
+	#site-name-slogan {
+		position: relative;
+		top: 15px;
+		left: 25px;
+	}
+		
+	#main {
+		background: inherit;
+	}
+	
+	#main-footer-wrapper {
+		background: transparent url("../images/eesc/footer_sides.png") repeat-x scroll 0 15px;
+		height: 152px;
+		margin: auto;
+	}
+	
+	#footer-message-wrapper {
+		background: url("../images/eesc/footer_main.png") no-repeat scroll 0 15px;
+		height: 152px;
+		width: 960px;
+		margin: auto;
+	}
+	
+	#footer-right1 {
+		background: url("../images/eesc/test.png") no-repeat scroll right 0 transparent;
+		height: 152px;
+		position: relative;
+		left: 112px;
+		width: 112px;
+		float: right;
+		}
+
+
+	.footer-wrapper, .footer-message-wrapper {
+		background: none;
+	}
+	
+	#footer-message-inner {
+		padding-top: 30px;
+		color: #EDECEC;
+	}
+	.copyright {
+		position: relative;
+		color: #45874A;
+		width: 808px;
+		padding-top: 21px;
+		margin: auto;
+		font-size: 70%;
+	}
+	.copyright a {
+		color: #45874A !important;
+	}
+		
+	#footer-gradient {
+		background: url("../images/eesc/footer_gradient.png") repeat-x scroll 0 0;
+		height: 77px;
+	}
+	
+	#preface-top {
+		padding: 0;
+	}
+	
+	#header-group-inner {
+		padding: 0 0 5px;
+	}
+	
+	#main-wrapper {
+		padding: 10px 0;
+	}
+	
+	#postscript-bottom {
+		padding: 0.5em 0 0;
+	}
+	
+	#block-menu-primary-links {
+		margin-bottom: 0.5em;
+	}
+
+	#footer-message-inner {
+		margin-left: 20px;
+	}
+	
+	.pnw-publication {
+		float: left;
+		margin-left: 55px;
+	}
+	
+	#footer-message a:link,
+	#footer-message a:visited {
+		color: #EDECEC;
+	}
+
+	.emergency-info {
+		float: left;
+		margin-left: 45px;
+	}
+		
+	.handbooks {
+		float: left;
+		margin-left: 105px;
+	}
+	
+	.row,
+	.nested,
+	.block {
+		overflow: visible;
+	}	
+	
+	.block .inner {
+		margin-left: 20px;
+		margin-right: 20px;
+	}	
+	
+	
+/*------------------------------Related Links--------------------------------
+---------------------------------------------------------------------------*/
+	
+	div.view-links-display li {
+		padding: 5px 0 5px 0;
+		list-style-type: none;
+		border-bottom: 1px solid #737373;
+	}
+	
+	div.view-links-display li.views-row-last {
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+	
+	div.view-links-display li.views-row-first {
+		padding-top: 0;
+	}
+	
+	div.view-links-display ul {
+		margin: 0;
+	}
+
+
+/*-----------------------------Photo Galleries-------------------------------
+---------------------------------------------------------------------------*/
+
+	.views-field-field-pictures-fid {
+		float: left;
+		padding: 0 10px 10px 0;
+	}
+
+	div.return-link {
+		float: right;
+	}
+	
+
+/*-----------------------Order Printed Handbook Page-------------------------
+---------------------------------------------------------------------------*/
+	
+	#ordering-info-table td {
+		border: none !important;
+	}
+	
+	#ordering-info-table p {
+		margin: 0;
+	}
+	
+	#ordering-info-table p.state {
+		font-weight: bold;
+		font-size: 1.25em;
+		margin-bottom: 0.5em;
+	}
+	
+	div.ordering-information p.header {
+		font-weight: bold;
+		font-size: 1.25em;
+	}
+	
+	
+/*----------------------------Section Contents-------------------------------
+---------------------------------------------------------------------------*/
+	
+	div.view-section-contents div.view-title {
+		font-size: 110%;
+		font-weight: bold;
+	}	
+
+
+/*--------------------------Websites of Interest-----------------------------
+---------------------------------------------------------------------------*/
+
+	p.indented {
+		margin: 0 0 0 20px;
+	}
+	
+	p.no-bottom-margin {
+		margin-bottom: 0;
+	}
+
+	
+/*--------------------------------Other--------------------------------------
+---------------------------------------------------------------------------*/	
+
+	#pid-weed-management-options-quick-guide p.body-text-oblique,
+	#pid-using-pesticides-safely p.body-text-oblique,
+	p.x-no-paragraph-style- {
+		margin: 0;
+	}
+	
+	#pid-disclaimer h1.title {
+		visibility: hidden;
+		font-size: 0.01em;
+		margin: 0;
+	}
+	
+	p.space-above {
+		margin: 1em 0 0 0;
+	}
+	
+	table {
+		border-collapse: collapse;
+	}
+	
+	thead {
+		background: #D0D0D0;
+	}
+	
+	td {
+		border: 1px black solid;
+		margin: 0;
+	}
+	
+	div.node-type-pnw_article table {
+		font-size: 95%;
+	}
+	
+	div.node table {
+		margin-bottom: 1em;
+	}
+	
+	#content-content .inner table {
+		display: block;
+		max-width: 95%;
+		overflow-x: auto;
+		margin-top: 1em;
+	}
+	a {
+		outline: none !important;
+	}
+	#sidebar-first h2 {
+		font-size: 140%;
+	}
+	#block-google_cse-0 h2 {
+	  font-size: 120%;	
+	}
+	.form-submit{
+		background-image: url('../images/eesc/button_bg.png');
+		border: 1px solid #9E9E9E;
+	}
+	#sidebar-first .block-book .menu {
+		margin-right: 15px;
+	}
+	p.table-footer  {
+		font-size: 1em;
+	}
+	#google-cse-searchbox-form .form-item input {
+		background-image: none !important;
+	}
+	#sidebar-first .block-book li.leaf {
+		list-style-image: none;
+		list-style-type: none;
+		margin-left: -7px;
+	}
+	#sidebar-first .block-book li.leaf a {
+		display: block;
+		background: url('../images/eesc/li-icon-side.jpg') left top no-repeat;
+		padding-left: 17px;
+		padding-bottom: 4px;
+		margin-left: -10px;
+	}
+	ul.arrow {
+		margin-top: 4px;
+	}
+	ul.arrow li {
+		margin-top: 10px;
+		list-style-image: url('../images/eesc/li-icon-main.jpg');
+	}
+	ul.arrow li p {
+		vertical-align: top;
+		
+	}

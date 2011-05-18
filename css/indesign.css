@@ -1,0 +1,346 @@
+/****************************/
+/* INDESIGN CSS             */
+/****************************/
+
+
+p.head-major-section {
+  font-weight: bold;
+  font-size: 1.67em;
+  text-transform: uppercase;
+  text-indent: 0;
+  text-align: center;
+  margin: 0;
+}
+p.head-subsection {
+  font-weight: bold;
+  font-size: 1.33em;
+  text-align: center;
+  margin: 1em 0 0 0;
+}
+p.crop {
+  font-weight: bold;
+  font-size: 1.50;
+  text-indent: 0;
+  text-align: center;
+  margin: 0;
+}
+
+p.crop-subhead {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 0 0 0.38em 0;
+}
+
+p.author {
+  font-weight: normal;
+  font-size: 0.75em;
+  text-indent: 0;
+  text-align: center;
+  margin: 1em 0 0.40 0;
+}
+
+p.revision-date,
+div.revision-date {
+  margin-bottom: 1em;
+  font-style: italic;
+  color: #737373;
+}
+
+p.toc-section-head {
+  font-weight: bold;
+  font-size: 0.71em;
+  text-indent: 0;
+  margin: 0 12.71em 0.53em 12.71em;
+}
+p.toc-text {
+  font-weight: normal;
+  font-size: 0.71em;
+  text-indent: 0;
+  margin: 0 12.71em 0.53em 12.71em;
+}
+p.subhead-1 {
+  font-weight: bold;
+  margin: 0.75em 0 0 0;
+}
+p.subhead-2 {
+  font-weight: bold;
+  font-size: 0.92em;
+  text-indent: 0;
+  margin: 0.41em 0;
+}
+
+p.subhead-3 {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0.45em 0 0 0;
+}
+
+p.subhead-3-bold-oblique {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.83em;
+  text-indent: 0;
+  margin: 1.80 0 0.60 0;
+}
+p.subhead-4 {
+  font-weight: bold;
+  margin: 1.41em 0 0.24em 0;
+}
+
+p.body-text {
+  margin: 0 0 0.53em 0;
+}
+
+p.body-text-normal {
+  margin: 0 0 1.06em 0;
+}
+
+p.body-text-oblique {
+  font-style: italic;
+  margin: 0 0 0.53em 0;
+}
+
+p.body-text-block {
+  margin: 0 0 0 1em;
+}
+
+p.body-text-product {
+  font-weight: normal;
+  font-size: 0.75em;
+  text-indent: 0;
+  margin: 0 0 0.50 1.20;
+}
+p.list-dash-indented {
+  font-weight: normal;
+  font-size: 0.71em;
+  text-indent: 0;
+  margin: 0 0 0 2.12em;
+}
+
+li.list-outdented {
+  margin: 0 0 0 1.06em;
+}
+
+p.product-and-brand-name,
+.product-and-brand-name-new-column {
+  font-weight: bold;
+  margin: 1.33em 0 0.44em 0;
+}
+
+p.chemname {
+  font-weight: bold;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  text-indent: 0;
+  margin: 1.33em 0 0.44em 0;
+}
+
+p.product-text {
+  margin: 0 0 0.35em 2.12em;
+}
+
+p.product-text-fix-orphan {
+  font-weight: normal;
+  font-size: 0.71em;
+  text-indent: 0;
+  margin: 0 0 0.35em 2.12em;
+}
+
+p.table-bold {
+  font-weight: bold;
+  margin: 0;
+}
+
+p.table-text {
+  margin: 0;
+}
+
+p.table-text-small {
+  margin: 0;
+}
+p.table-text-vertical {
+  font-weight: normal;
+  font-size: 0.62em;
+  text-indent: 0;
+  margin: 0;
+}
+
+p.table-footer {
+  font-size: 0.8em;
+  margin: 0.64em 0 0 0;
+}
+
+p.table-centered-text {
+  text-align: center;
+  margin: 0;
+}
+
+p.table-italic {
+  font-weight: bold;
+  font-size: 0.67em;
+  text-indent: 0;
+  margin: 0;
+}
+p.table-heading {
+  font-weight: bold;
+  font-size: 1em;
+  text-indent: 0;
+  text-align: center;
+  margin: 0;
+}
+p.table-head {
+  font-weight: bold;
+  font-size: 1.33em;
+  text-indent: 0;
+  text-align: center;
+  margin: 0;
+}
+
+p.table-head-second-line-description {
+  margin: 0.56em 0;
+}
+
+p.table-head-continued {
+  font-weight: bold;
+  font-size: 0.67em;
+  text-transform: uppercase;
+  text-indent: 0;
+  text-align: right;
+  margin: 0.56em 0;
+}
+li.list-outdented-numbered {
+  margin: 0 0 0.53em 2.12em;
+}
+
+li.list-em-dash-level-two {
+  list-style-image: url("../images/menu-dash.png"); 
+  margin: 0 0 0 3.71em;
+}
+
+li.list-bullets-level-three {
+  margin: 0 0 0 5.82em;
+}
+
+p.problem-weeds {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1.33em 0 0 0;
+}
+p.authors-and-contributors-frontmatter- {
+  margin: 0 0 0.53em 3.71em;
+}
+p.billboard-heading {
+  font-weight: bold;
+  font-size: 0.92em;
+  text-indent: 0;
+  text-align: center;
+  margin: 0.73em 0;
+}
+p.glossary-entry {
+  font-weight: normal;
+  text-indent: -1em;
+  margin: 0 0 0.50 1em;
+}
+p.main-toc-major-section-entry {
+  font-weight: bold;
+  font-size: 0.71em;
+  text-indent: 0;
+  margin: 0 0 0.21em 0;
+}
+p.main-toc-entry-level-2 {
+  font-weight: normal;
+  font-size: 0.71em;
+  text-indent: 0;
+  margin: 0 0 0.21em 1.06em;
+}
+p.main-toc-entry-level-3 {
+  font-weight: normal;
+  font-size: 0.71em;
+  text-indent: 0;
+  margin: 0 0 0.21em 2.12em;
+}
+p.index-section-head {
+  font-weight: bold;
+  font-size: 1em;
+  text-indent: 0;
+  margin: 0.60 0;
+}
+p.index-level-1 {
+  font-weight: normal;
+  font-size: 0.83em;
+  text-indent: -2.80;
+  margin: 0 0 0 2.80;
+}
+p.index-level-2 {
+  font-weight: normal;
+  font-size: 0.83em;
+  text-indent: -2.10;
+  margin: 0 0 0 2.80;
+}
+p.index-level-3 {
+  font-weight: normal;
+  font-size: 0.83em;
+  text-indent: -1.40;
+  margin: 0 0 0 2.80;
+}
+span.keep-line-together {
+  }
+span.s-metolachlor-text {
+  font-weight: normal;
+}
+span.s-metolachlor-bold {
+  font-weight: bold;
+}
+
+span.oblique {
+  font-style: italic;
+}
+
+span.bold-oblique {
+  font-weight: bold;
+  font-style: italic;
+}
+
+span.grey-bold-oblique {
+  font-weight: bold;
+  font-style: italic;
+  color: #737373;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+span.grey-bold {
+  font-weight: bold;
+  color: #737373;
+}
+
+span.superscript {
+  vertical-align: super;
+}
+
+span.subscript {
+  vertical-align: sub;
+}
+
+td {
+  border: 1px solid #000000;
+}
+
+td.x5-k {
+  background-color: #EFEFEF;
+}
+
+td.x10-k {
+  background-color: #DFDFDF;
+}
+
+td.x20-k {
+  background-color: #AFAFAF;
+}
+
+td.x30-k {
+  background-color: #8F8F8F;
+}
