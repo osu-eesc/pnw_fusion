@@ -26,12 +26,14 @@ $base_path =  '/' .$path_array[1]. '/';
       </div><!-- /node-top-inner -->
     </div><!-- /node-top -->
     <?php endif; ?>
-
+    
     <div class="content clearfix">
 	  <?php
 		print '<div class="links-inline">';
-		print '<a class="add-link" href="' . $base_path . 'node/add/link/' . $node->nid . '">Add Link</a>';
-		print '<a class="add-gallery" href="' . $base_path . 'node/add/gallery/' . $node->nid . '">Add Gallery</a>';
+		if ($node->links['pnw_page_field_attach_to']['title']) {
+			print '<a class="add-link" href="' . $base_path . 'node/add/link/' . $node->nid . '">Add Link</a>';
+			print '<a class="add-gallery" href="' . $base_path . 'node/add/gallery/' . $node->nid . '">Add Gallery</a>';
+		}
 		print '</div>';
 	  ?>
       <?php
