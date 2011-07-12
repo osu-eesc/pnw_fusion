@@ -345,3 +345,9 @@ td.x20-k {
 td.x30-k {
   background-color: #8F8F8F;
 }
+
+span.zapf-checkmark {
+  font-family: "Zapf Dingbats";
+  font-weight: normal;
+  font-style: normal;
+}

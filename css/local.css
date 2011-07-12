@@ -577,3 +577,8 @@
 		vertical-align: top;
 		
 	}
+	
+	#node-373 p.list-dash-indented,
+	#node-373 p.table-text-vertical {
+		font-size: 1em;
+	}
