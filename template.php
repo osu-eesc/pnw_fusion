@@ -9,15 +9,3 @@ function pnw_fusion_breadcrumb($breadcrumb) {
     return '<div class="breadcrumb">'. implode(' &rsaquo; ', $breadcrumb) .'</div>';
   }
 }
-
-/**
- * Theme override for theme_preprocess_page()
- * Adds template suggestion per content type
- * Also set a variable for a taxonomy term and tid 
- * for display on page-news_story.tpl.php
-*/
-/*function eesc_prosper_preprocess_page(&$vars, $hook) {
-	if (isset($vars['node'])) {
-   $vars['template_files'][] = 'page-'. $vars['node']->type; 
-	}
-} */
