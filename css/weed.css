@@ -388,6 +388,13 @@ html {
   height: 77px;
 }
 
+.copyright {
+  color: #45874A;
+}
+  
+.copyright a {
+  color: #45874A !important;
+}
 
 
 

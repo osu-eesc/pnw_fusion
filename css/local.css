@@ -247,14 +247,21 @@
     float: right;
     text-align: center;
     position: relative;
-    margin-right: 15px;
+    margin-right: 13px;
+  }
+  
+  #login-button a.login-link {
+    position: relative;
+    top: 8px;
+    text-decoration: none !important;
+    margin-right: 3px;
   }
   
   #login-button a.logout-link {
     position: relative;
     top: 8px;
-    padding: 9px 16px;
   }
+
   .breadcrumbs .inner {
     border: none;
     background-color: transparent;
@@ -263,16 +270,11 @@
   .breadcrumb a {
     padding: 0px 5px;
   }
-  #login-button a.login-link {
-    position: relative;
-    top: 8px;
-    padding: 9px 20px;
-    text-decoration: none !important;
-  }
   
   #preface-top-wrapper {
     background: url("../images/eesc/banner_shadow.png") repeat-x scroll 0 0;
   }
+
   #preface-top-inner {
     background: url("../images/eesc/header_menu_bg.png") no-repeat 0 0;
     height: 38px;
@@ -299,18 +301,15 @@
     padding-top: 30px;
     color: #EDECEC;
   }
+
   .copyright {
     position: relative;
-    color: #45874A;
     width: 808px;
     padding-top: 21px;
     margin: auto;
     font-size: 70%;
   }
-  .copyright a {
-    color: #45874A !important;
-  }
-  
+ 
   #preface-top {
     padding: 0;
   }

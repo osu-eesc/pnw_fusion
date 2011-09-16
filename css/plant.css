@@ -1,2 +1,45 @@
 /* $Id: plant.css,v 1.0 2011/09/16 */
 
+/*---------------------------Overall Theme Look------------------------------
+---------------------------------------------------------------------------*/
+
+html {
+  background-color: #1E4457;
+}
+
+#header-group-wrapper {
+  background: url("../images/eesc/plant/banner.png") repeat scroll 0 0 #1D7534;
+}
+
+#header-group {
+  background: url("../images/eesc/plant/header_main.png") no-repeat scroll center transparent;
+  height: 139px;
+  width: 100%;
+}
+
+#main-footer-wrapper {
+  background: transparent url("../images/eesc/plant/footer_sides.png") repeat-x scroll 0 15px;
+  height: 152px;
+  margin: auto;
+  border-bottom: 1px solid #627d90;
+}
+
+#footer-message-wrapper {
+  background: url("../images/eesc/plant/footer_main.png") no-repeat scroll 0 15px;
+  height: 152px;
+  width: 960px;
+  margin: auto;
+}
+
+#footer-gradient {
+  background: url("../images/eesc/plant/footer_gradient.png") repeat-x scroll 0 0;
+  height: 77px;
+}
+
+.copyright {
+  color: #91B0C6;
+}
+
+.copyright a {
+  color: #91B0C6 !important;
+}
