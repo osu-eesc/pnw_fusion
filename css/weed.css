@@ -357,7 +357,7 @@ span.zapf-checkmark {
 ---------------------------------------------------------------------------*/
 
 html {
-  background-color: #114021;
+  background-color: #13431B;
 }
 
 #header-group-wrapper {
@@ -374,6 +374,7 @@ html {
   background: transparent url("../images/eesc/weed/footer_sides.png") repeat-x scroll 0 15px;
   height: 152px;
   margin: auto;
+  border-bottom: 1px solid #619E6A;
 }
 
 #footer-message-wrapper {
