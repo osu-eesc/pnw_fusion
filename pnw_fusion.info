@@ -14,7 +14,6 @@ stylesheets[all][] = design_packs/gray/gray.css
 ; Comment out the above CSS file and uncomment this one to switch to the blue color scheme
 ;stylesheets[all][] = design_packs/blue/blue.css
 
-stylesheets[all][] = css/indesign.css
 stylesheets[all][] = css/local.css
 
 scripts[] = js/jquery.corner.js
@@ -54,6 +53,7 @@ settings[theme_font_size] = font-size-12
 settings[sidebar_layout] = sidebars-split
 settings[sidebar_first_width] = 3
 settings[sidebar_last_width] = 3
+settings[site_handbook] = weed
 
 ; Inherit Skinr styles from parent themes
 skinr[options][inherit_skins] = true

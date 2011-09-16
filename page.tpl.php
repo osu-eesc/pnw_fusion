@@ -60,7 +60,7 @@
                           <span id="site-name">
                             <a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>">
                               <![if gt IE 6]>
-                                <img src="http://<?php print $_SERVER['SERVER_NAME'] . $base_path; ?>sites/default/themes/pnw_fusion/images/eesc/site_name.png"/>
+                                <img src="http://<?php print $_SERVER['SERVER_NAME'] . $base_path; ?>sites/default/themes/pnw_fusion/images/eesc/<?php print $site_handbook; ?>/site_name.png"/>
                               <![endif]>
                               <?php print '<!--[if lte IE 6]><img src="http://'.$_SERVER['SERVER_NAME'] . $base_path .'sites/default/themes/pnw_fusion/images/eesc/site_name.gif"/><![endif]-->'; ?>
                             </a>
