@@ -1,2 +1,49 @@
 /* $Id: insect.css,v 1.0 2011/09/16 */
 
+/*---------------------------Overall Theme Look------------------------------
+---------------------------------------------------------------------------*/
+
+html {
+  background-color: #6D2D23;
+}
+
+#header-group-wrapper {
+  background: url("../images/eesc/insect/banner.png") repeat scroll 0 0 #6D2D23;
+}
+
+#header-group {
+  background: url("../images/eesc/insect/header_main.png") no-repeat scroll center transparent;
+  height: 139px;
+  width: 100%;
+}
+
+#preface-top-inner {
+  background: url("../images/eesc/insect/header_menu_bg.png") no-repeat scroll 0 0 transparent !important;
+}
+
+#main-footer-wrapper {
+  background: transparent url("../images/eesc/insect/footer_sides.png") repeat-x scroll 0 15px;
+  height: 152px;
+  margin: auto;
+  border-bottom: 1px solid #B34B4A;
+}
+
+#footer-message-wrapper {
+  background: url("../images/eesc/insect/footer_main.png") no-repeat scroll 0 15px;
+  height: 152px;
+  width: 960px;
+  margin: auto;
+}
+
+#footer-gradient {
+  background: url("../images/eesc/insect/footer_gradient.png") repeat-x scroll 0 0;
+  height: 77px;
+}
+
+.copyright {
+  color: #DF9185;
+}
+  
+.copyright a {
+  color: #DF9185 !important;
+}
