@@ -8,6 +8,7 @@
     <meta name="google-site-verification" content="4WmhqfiQcr9izEQafz4n3Z39wcRcQ4a50nKWCX3y_fg" />  
     <?php print $head; ?>
     <?php print $styles; ?>
+	<link href="<?php print drupal_get_path('theme', 'pnw_fusion') . '/css/' . $site_handbook . '.css';?>" media="all" rel="stylesheet">
     <?php print $setting_styles; ?>
     <!--[if IE 8]>
       <?php print $ie8_styles; ?>
@@ -18,7 +19,6 @@
     <!--[if lte IE 6]>
       <?php print $ie6_styles; ?>
     <![endif]-->
-    <?php print $local_styles; ?>
     <?php print $scripts; ?>
   </head>
   
@@ -62,7 +62,7 @@
                               <![if gt IE 6]>
                                 <img src="http://<?php print $_SERVER['SERVER_NAME'] . $base_path; ?>sites/default/themes/pnw_fusion/images/eesc/<?php print $site_handbook; ?>/site_name.png"/>
                               <![endif]>
-                              <?php print '<!--[if lte IE 6]><img src="http://'.$_SERVER['SERVER_NAME'] . $base_path .'sites/default/themes/pnw_fusion/images/eesc/site_name.gif"/><![endif]-->'; ?>
+                              <?php print '<!--[if lte IE 6]><img src="http://'.$_SERVER['SERVER_NAME'] . $base_path .'sites/default/themes/pnw_fusion/images/eesc/'.$site_handbook.'/site_name.gif"/><![endif]-->'; ?>
                             </a>
                           </span>
                         <?php endif; ?>
