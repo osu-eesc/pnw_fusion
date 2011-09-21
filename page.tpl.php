@@ -8,8 +8,8 @@
     <meta name="google-site-verification" content="4WmhqfiQcr9izEQafz4n3Z39wcRcQ4a50nKWCX3y_fg" />  
     <?php print $head; ?>
     <?php print $styles; ?>
-	<link href="<?php print drupal_get_path('theme', 'pnw_fusion') . '/css/' . $site_handbook . '.css';?>" media="all" rel="stylesheet">
     <?php print $setting_styles; ?>
+	<link href="<?php print $base_path.drupal_get_path('theme', 'pnw_fusion') . '/css/' . $site_handbook . '.css';?>" media="all" rel="stylesheet">
     <!--[if IE 8]>
       <?php print $ie8_styles; ?>
     <![endif]-->
