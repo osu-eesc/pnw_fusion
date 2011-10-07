@@ -545,12 +545,22 @@
   
   /* handbook announcement styles */
   div.announcement {
+    background-color: #fff;
+    background-image: url("../images/eesc/announcement-icon.png");
+    background-position: 5px 1.0em;
+    background-repeat: no-repeat;
     border: 2px solid #0E7D85;
-    padding: 1em 2em 0 2em;
-    background: #fff;
+    color: #000000;
+    min-height: 32px;
+    padding: 0 5px 5px 50px;
+    
   }
-  
-  div.view-handbook-announcement div.views-field-title {
-    font-size: 130%;
-    font-weight: bold;
+ 
+  div.view-handbook-announcement  div.view-content h3 {
+    margin: 0.75em 0 0 0;
+    text-transform: none;
+  }
+
+  div.views-field-field-pnw-announcement-text-value div.field-content p {
+    margin: 0.5em 0;
   }
