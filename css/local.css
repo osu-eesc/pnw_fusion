@@ -553,12 +553,12 @@
     color: #000000;
     min-height: 32px;
     padding: 0 5px 5px 50px;
-    
+    text-transform: none;
   }
  
   div.view-handbook-announcement  div.view-content h3 {
     margin: 0.75em 0 0 0;
-    text-transform: none;
+
   }
 
   div.views-field-field-pnw-announcement-text-value div.field-content p {
