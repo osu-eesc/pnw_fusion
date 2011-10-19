@@ -218,3 +218,7 @@ td.cell-style-override-4 {
 
 div.Basic-Text-Frame {
 }
+
+#content-content .inner table {
+  display: table;
+}
