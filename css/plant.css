@@ -68,7 +68,6 @@ td {
 }
 
 span.Cultivar-Table-Head---superscript {
-  font-size : 0.83em;
   vertical-align : super;
 }
 
@@ -81,13 +80,11 @@ span.Text-italics {
 }
 
 span.Key-Table-Superscript {
-  font-size : 0.67em;
   vertical-align : super;
 }
 
 span.Key-with-Dingbats {
   font-family : "Zapf Dingbats", sans-serif;
-  font-size : 0.67em;
 }
 
 span.char-style-override-1 {
@@ -117,26 +114,22 @@ p.Basic-Paragraph {
 
 p.Cultivar-Table-Head {
   font-weight : bold;
-  font-size : 0.67em;
   line-height : 1;
   margin : 1px 0px 0px 0px;
 }
 
 p.Cultivar-Table-Row-Heads {
   font-weight : bold;
-  font-size : 0.67em;
   line-height : 1;
   margin : 0px 0px 0px 4px;
 }
 
 p.Cultivar-Table-Text- {
-  font-size : 0.67em;
   line-height : 1;
   text-align : center;
 }
 
 p.Cultivar-Table-Notes {
-  font-size : 0.67em;
   line-height : 1.13;
   margin : 0px 0px 0px 5px;
 }
@@ -148,14 +141,12 @@ p.Cultivar-Table-Intro-Text {
 
 p.Cultivar-Table-Head-Centered {
   font-weight : bold;
-  font-size : 0.67em;
   line-height : 1;
   text-align : center;
   margin : 1px 0px 0px 0px;
 }
 
 p.Cultivar-Table-Column-Left {
-  font-size : 0.67em;
   line-height : 1;
   margin : 0px 0px 0px 4px;
 }
@@ -221,4 +212,8 @@ div.Basic-Text-Frame {
 
 #content-content .inner table {
   display: table;
+}
+
+#table-13 {
+  border: none;
 }
