@@ -43,3 +43,178 @@ html {
 .copyright a {
   color: #91B0C6 !important;
 }
+
+
+/*----------------------------Indesign-Created CSS---------------------------
+---------------------------------------------------------------------------*/
+
+tbody, thead, tfoot, tr, td, th {
+  border-style : inherit;
+  border-width : inherit;
+  border-color : inherit;
+}
+
+td {
+  width : 10px;
+  height : 5px;
+}
+
+.leftFloat {
+  float : left;
+}
+
+.rightFloat {
+  float : right;
+}
+
+span.Cultivar-Table-Head---superscript {
+  font-size : 0.83em;
+  vertical-align : super;
+}
+
+span.Text-bold {
+  font-weight : bold;
+}
+
+span.Text-italics {
+  font-style : italic;
+}
+
+span.Key-Table-Superscript {
+  font-size : 0.67em;
+  vertical-align : super;
+}
+
+span.Key-with-Dingbats {
+  font-family : "Zapf Dingbats", sans-serif;
+  font-size : 0.67em;
+}
+
+span.char-style-override-1 {
+}
+
+span.char-style-override-2 {
+  font-size : 0.9em;
+}
+
+span.char-style-override-3 {
+  font-size : 0.9em;
+}
+
+span.char-style-override-4 {
+}
+
+p.No-Paragraph-Style {
+  font-family : "Minion Pro", serif;
+  font-size : 1em;
+  line-height : 1.2;
+}
+
+p.Basic-Paragraph {
+  font-size : 1em;
+  line-height : 1.2;
+}
+
+p.Cultivar-Table-Head {
+  font-weight : bold;
+  font-size : 0.67em;
+  line-height : 1;
+  margin : 1px 0px 0px 0px;
+}
+
+p.Cultivar-Table-Row-Heads {
+  font-weight : bold;
+  font-size : 0.67em;
+  line-height : 1;
+  margin : 0px 0px 0px 4px;
+}
+
+p.Cultivar-Table-Text- {
+  font-size : 0.67em;
+  line-height : 1;
+  text-align : center;
+}
+
+p.Cultivar-Table-Notes {
+  font-size : 0.67em;
+  line-height : 1.13;
+  margin : 0px 0px 0px 5px;
+}
+
+p.Cultivar-Table-Intro-Text {
+  font-size : 0.75em;
+  line-height : 1.11;
+}
+
+p.Cultivar-Table-Head-Centered {
+  font-weight : bold;
+  font-size : 0.67em;
+  line-height : 1;
+  text-align : center;
+  margin : 1px 0px 0px 0px;
+}
+
+p.Cultivar-Table-Column-Left {
+  font-size : 0.67em;
+  line-height : 1;
+  margin : 0px 0px 0px 4px;
+}
+
+p.para-style-override-1 {
+}
+
+p.para-style-override-2 {
+  margin-bottom : 1px;
+  margin-top : 1px;
+}
+
+table.No-Table-Style {
+  border-collapse : collapse;
+  border-width : 1px;
+  border-style : solid;
+  border-color : #000000;
+  margin-top : 4px;
+  margin-bottom : -4px;
+}
+
+table.Basic-Table {
+  border-collapse : collapse;
+  border-width : 1px;
+  border-style : solid;
+  border-color : #000000;
+  margin-top : 4px;
+  margin-bottom : -4px;
+}
+
+table.table-style-override-1 {
+  border-collapse : collapse;
+}
+
+td.Cultivar-Table-Head-Rotated {
+}
+
+td.cell-style-override-1 {
+  padding-bottom : 3px;
+  padding-right : 3px;
+  padding-top : 2px;
+}
+
+td.cell-style-override-2 {
+  padding-bottom : 4px;
+  padding-right : 4px;
+  padding-top : 4px;
+}
+
+td.cell-style-override-3 {
+  padding-bottom : 4px;
+  padding-right : 4px;
+}
+
+td.cell-style-override-4 {
+  padding-bottom : 2px;
+  padding-right : 2px;
+  padding-top : 2px;
+}
+
+div.Basic-Text-Frame {
+}
