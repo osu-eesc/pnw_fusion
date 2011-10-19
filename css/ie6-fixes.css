@@ -2,6 +2,7 @@
 
 /* IE6 fixes
 -------------------------------------------------------------- */
+
 /* Lists */
 ul li {
   list-style-image: url(../images/list-level-1_ie.png);
@@ -149,12 +150,19 @@ ul.pager li.pager-item a:visited {
 	z-index: 9999999 !important;
 	margin-top: 26px;
 }
-#main-footer-wrapper * {
+#main-footer-wrapper {
 	font-size: 11px !important;
 	line-height: 18px;
 }
 .pnw-publication {
 	margin-left: 30px !important;
+	width: 201px !important;
+}
+.emergency-info {
+	width: 270px !important;
+}
+.handbooks {
+	width: 214px !important;
 }
 .copyright {
 	width: 960px !important;

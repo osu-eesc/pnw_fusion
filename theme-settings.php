@@ -1,11 +1,16 @@
 <?php
-
+function pnw_fusion_settings($saved_settings) {
+  $defaults = array(
+    'site_handbook' => 'weed'
+  );
+  // Add site-wide theme settings
+  $settings = array_merge($defaults, $saved_settings);
 /**
  * Adds PNW handbook selector to theme settings
  */
-function pnw_fusion_settings($settings) {
+
   $form['site_handbook'] = array(
-    '#type' => 'radios',
+    '#type' => 'select',
     '#title' => t('PNW Management Handbook'),
     '#description' => t('Select the PNW handbook for this site.'),
     '#options' => array(
