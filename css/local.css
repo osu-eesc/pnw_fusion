@@ -605,3 +605,133 @@ ul#multiselect_btns {
 #lightbox, #outerImageContainer, #modalContainer {
 	overflow: visible !important;
 }
+
+
+/*--Start pager style override--*/
+ul.pager {
+  background: none;
+  border: 1px solid #cecece;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+ul.pager * {
+	margin: 0 !important;
+	padding: 0 !important;
+	line-height: 0 !important;
+	height: 0 !important;
+	width: 0 !important;
+	text-indent: 0 !important;
+	background-image: none !important;
+	background-color: #fff !important;
+	color: #666 !important;
+}
+ul.pager li, ul.pager li a {
+	display: block !important;
+	float: left !important;
+}
+ul.pager li.pager-item, ul.pager li.pager-first, ul.pager li.pager-previous, ul.pager li.pager-next, ul.pager li.pager-last {
+	height: 16px !important;
+	width: 20px !important;
+	margin: 0 2px !important;
+}
+ul.pager li.pager-current, ul.pager li a {
+	border: 1px solid #C6C8C9 !important;
+	border-radius: 2px !important;
+	-moz-border-radius: 2px !important;
+	-ms-border-radius: 2px !important;
+	-o-border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+}
+ul.pager li.pager-current {
+	line-height: 38px !important;
+	height: 27px !important;
+	width: 20px !important;
+	margin: -10px 0 0 2px !important;
+	border-top: none !important;
+}
+ul.pager li a {
+	line-height: 16px !important;
+	height: 16px !important;
+	width: 20px !important;
+}
+ul.pager li.pager-first a, ul.pager li.pager-previous a, ul.pager li.pager-next a, ul.pager li.pager-last a {
+	font-size: 18px !important;
+	font-weight: normal !important;
+	line-height: 13px !important;
+}
+@-moz-document url-prefix() {
+	ul.pager li.pager-first a, ul.pager li.pager-previous a, ul.pager li.pager-next a, ul.pager li.pager-last a {
+		line-height: 12px !important;
+	}
+}
+ul.pager li a:hover {
+	background-color: #666 !important;
+	border-color: #333 !important;
+	color: #FFF !important;
+}
+ul.pager a.views-throbbing {
+	color: #fff !important;
+}
+	/*--Start pager animation control--*/
+	@keyframes throb
+	{
+		0% {background-color: auto;}
+		100% {background-color: #D85a1a;}
+	}
+	@-webkit-keyframes throb
+	{
+		0% {background-color: auto;}
+		100% {background-color: #D85a1a;}
+	}
+	@-moz-keyframes throb
+	{
+		0% {background-color: auto;}
+		100% {background-color: #D85a1a;}
+	}
+	@-o-keyframes throb
+	{
+		0% {background-color: auto;}
+		100% {background-color: #D85a1a;}
+	}
+	@-ms-keyframes throb
+	{
+		0% {background-color: auto;}
+		100% {background-color: #D85a1a;}
+	}
+	ul.pager a.views-throbbing
+	{
+	  border-color: #333 !important;
+	  
+		animation-name: throb;
+		animation-timing-function: ease-in-out;
+		animation-iteration-count: infinite;
+		animation-duration: 0.25s;
+		animation-direction: alternate;
+	
+		-webkit-animation-name: throb;
+		-webkit-animation-timing-function: ease-in-out;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-duration: 0.25s;
+		-webkit-animation-direction: alternate;
+	
+		-moz-animation-name: throb;
+		-moz-animation-timing-function: ease-in-out;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-duration: 0.25s;
+		-moz-animation-direction: alternate;
+	
+		-o-animation-name: throb;
+		-o-animation-timing-function: ease-in-out;
+		-o-animation-iteration-count: infinite;
+		-o-animation-duration: 0.25s;
+		-o-animation-direction: alternate;
+	
+		-ms-animation-name: throb;
+		-ms-animation-timing-function: ease-in-out;
+		-ms-animation-iteration-count: infinite;
+		-ms-animation-duration: 0.25s;
+		-ms-animation-direction: alternate;
+	}
+	/*--End pager amination control--*/
+/*--End pager style override--*/

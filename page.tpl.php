@@ -9,7 +9,7 @@
     <?php print $head; ?>
     <?php print $styles; ?>
     <?php print $setting_styles; ?>
-	<link href="<?php print $base_path.drupal_get_path('theme', 'pnw_fusion') . '/css/' . $site_handbook . '.css';?>" media="all" rel="stylesheet">
+	  <link href="<?php print $base_path.drupal_get_path('theme', 'pnw_fusion') . '/css/' . $site_handbook . '.css';?>" media="all" rel="stylesheet">
     <!--[if IE 8]>
       <?php print $ie8_styles; ?>
     <![endif]-->
@@ -137,22 +137,7 @@
                                 <?php print theme('grid_block', $tabs, 'content-tabs'); ?>
                                 <div id="content-inner" class="content-inner block">
                                   <div id="content-inner-inner" class="content-inner-inner inner">
-        
-                                    <div class="attachment_links"><!--adds related content links -->
-                                      <ul class="links inline">
-    
-                                        <?php
-                                          if ($node->links['gallery_field_attach_to']) {
-                                            print '<li class="gallery_field_attach_to"><a href="' . $base_path . $node->links['gallery_field_attach_to']['href'] . '?' . $node->links['gallery_field_attach_to']['query'] . '">' . $node->links['gallery_field_attach_to']['title'] . '</a></li>';
-                                          }
-                                          if ($node->links['link_field_attach_to']) {
-                                            print '<li class="link_field_attach_to"><a href="' .$base_path . $node->links['link_field_attach_to']['href'] . '?' . $node->links['link_field_attach_to']['query'] . '">' . $node->links['link_field_attach_to']['title'] . '</a></li>';
-                                          }
-                                        ?>
-                                      </ul>
-                                    </div><!-- /attachment_links -->
                                     <div class="clearfix"></div>
-                                                            
                                       <?php if ($title): ?>
                                         <h1 class="title"><?php print $title; ?></h1>
                                       <?php endif; ?>
@@ -191,11 +176,6 @@
             <div id="footer-message-wrapper" class="footer-message-wrapper full-width">
               <div id="footer-right"></div>
               <div id="footer-message" class="footer-message row <?php print $grid_width; ?>">
-    
-    
-    
-    
-    
                 <div id="footer-message-inner" class="footer-message-inner inner clearfix">
                 
                   <div class="pnw-publication">
@@ -221,18 +201,8 @@
                     <a href="http://pnwhandbooks.org/insect">PNW Insect Management Handbook</a><br />
                     <a href="http://pnwhandbooks.org/plantdisease">PNW Plant Disease Management Handbook</a>
                   </div>
-                  
-                  
-    
-    
-    
-    
+
                 </div><!-- /footer-message-inner -->
-    
-    
-    
-    
-    
               </div><!-- /footer-message -->
             </div><!-- /footer-message-wrapper -->
           </div><!-- /main-footer-wrapper -->
