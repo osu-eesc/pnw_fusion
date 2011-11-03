@@ -354,10 +354,6 @@ span.grey-bold-oblique {
   color: #737373;
 }
 
-span.bold {
-  font-weight: bold;
-}
-
 span.grey-bold {
   font-weight: bold;
   color: #737373;
@@ -397,6 +393,42 @@ span.zapf-checkmark {
   font-style: normal;
 }
 
+/*--------------------------Agrichemicals Table------------------------------
+---------------------------------------------------------------------------*/
+  #page-inner {
+    background: url('../images/eesc/bg_ilr_vert.png') center repeat-y;
+  }
+  div.view-all-agrichemicals table {
+    background: #FFFFFF;
+    border: 1px solid #737373;
+  }
 
+  div.view-all-agrichemicals table tr {
+    vertical-align: top;
+  }
+  
+  div.view-all-agrichemicals table td {
+    border: 1px solid #737373;
+  }
+
+  div.view-all-agrichemicals div.views-field-name {
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  div.views-field-name {
+    font-size: 1.25em;
+    color: #535353;
+  }
+
+  h1, h1.title {
+    font-size: 200%;
+  }
+/*--------------------------Agrichemicals Block------------------------------
+---------------------------------------------------------------------------*/
+  
+  div.view-display-id-block_2 {
+    text-transform: lowercase;
+  }
 
 
