@@ -47,6 +47,9 @@ html {
 
 /*----------------------------Indesign-Created CSS---------------------------
 ---------------------------------------------------------------------------*/
+table {
+  border: 1px solid #000000;
+}
 
 tbody, thead, tfoot, tr, td, th {
   border-style : inherit;
