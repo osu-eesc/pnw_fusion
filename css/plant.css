@@ -53,121 +53,272 @@ tbody, thead, tfoot, tr, td, th {
   border-width : inherit;
   border-color : inherit;
 }
-
-td {
-  width : 10px;
-  height : 5px;
-}
-
 .leftFloat {
   float : left;
 }
-
 .rightFloat {
   float : right;
 }
-
-span.Cultivar-Table-Head---superscript {
-  vertical-align : super;
+ul.List-1 {
+  margin-left : 4px;
 }
-
+span.H---O-Code-letters {
+  font-family : "Untitled 2", sans-serif;
+  font-size : 0.79em;
+  border: 1px solid #000000;
+  padding: 0 1px;
+}
+span.Text---Bold-Italic {
+  font-weight : bold;
+  font-style : italic;
+}
 span.Text-bold {
   font-weight : bold;
 }
-
 span.Text-italics {
   font-style : italic;
 }
-
-span.Key-Table-Superscript {
+span.Helvetica-in-Text {
+  font-family : Helvetica, sans-serif;
+  font-size : 0.75em;
+}
+span.Subscript {
+  font-size : 0.75em;
+  vertical-align : sub;
+}
+span.Cultivar-Table-Head---superscript {
+  font-family : Helvetica, sans-serif;
+  font-size : 0.83em;
   vertical-align : super;
 }
-
-span.Key-with-Dingbats {
-  font-family : "Zapf Dingbats", sans-serif;
+span.Key-Table-Superscript {
+  font-size : 0.67em;
+  vertical-align : super;
 }
-
+span.Cultivar-Head-Bold-Oblique {
+  font-weight : bold;
+}
 span.char-style-override-1 {
 }
-
 span.char-style-override-2 {
-  font-size : 0.9em;
+  font-size : 0.75em;
 }
-
 span.char-style-override-3 {
-  font-size : 0.9em;
+  font-size : 0.83em;
 }
-
 span.char-style-override-4 {
 }
-
-p.No-Paragraph-Style {
+span.char-style-override-5 {
+  font-size : 1.33em;
+}
+span.char-style-override-6 {
   font-family : "Minion Pro", serif;
+}
+span.char-style-override-7 {
+  font-size : 0.9em;
+}
+span.char-style-override-8 {
+  font-size : 0.9em;
+}
+p.No-Paragraph-Style {
   font-size : 1em;
   line-height : 1.2;
+  text-indent : 0px;
+  margin : 0px;
 }
-
 p.Basic-Paragraph {
   font-size : 1em;
   line-height : 1.2;
+  text-indent : 0px;
+  margin : 0px;
 }
-
-p.Cultivar-Table-Head {
-  font-weight : bold;
-  line-height : 1;
-  margin : 1px 0px 0px 0px;
+li.Bullet-List---Level-1 {
+  font-size : 0.75em;
+  line-height : 1.11;
+  margin-right : 0px;
+  margin-top : 0px;
+  margin-bottom : 2px;
 }
-
-p.Cultivar-Table-Row-Heads {
-  font-weight : bold;
+li.Bullet-List---Level-2 {
+  font-size : 0.75em;
+  line-height : 1.11;
+  margin-right : 0px;
+  margin-top : 0px;
+  margin-bottom : 1px;
+}
+p.Section-Head {
+  font-family : Helvetica, sans-serif;
+  font-size : 2em;
+  font-variant : small-caps;
+  line-height : 0.58;
+  text-align : center;
+  text-indent : 0px;
+  margin : 7px 0px 5px 0px;
+}
+p.Article-Title {
+  font-family : Helvetica, sans-serif;
+  font-size : 1.5em;
+  font-variant : small-caps;
+  line-height : 1.22;
+  text-align : center;
+  text-indent : 0px;
+  margin : 7px 0px 5px 0px;
+}
+p.Section---Page {
+  font-size : 0.75em;
+  line-height : 1.11;
+  text-indent : 0px;
+  margin : 0px 0px 8px 0px;
+}
+p.H---O-Symbol-Note {
+  font-size : 0.75em;
+  line-height : 1.11;
+  text-indent : 0px;
+  margin : 0px 0px 8px 0px;
+}
+p.Cultivar-Table-Column-Left {
+  font-size : 0.67em;
   line-height : 1;
+  text-indent : 0px;
   margin : 0px 0px 0px 4px;
 }
-
-p.Cultivar-Table-Text- {
+p.Cultivar-Table-Row-Heads {
+  font-weight : bold;
+  font-size : 0.67em;
+  line-height : 1;
+  text-indent : 0px;
+  margin : 0px 0px 0px 4px;
+}
+p.Cultivar-Table-Head {
+  font-weight : bold;
+  font-size : 0.67em;
+  line-height : 1;
+  text-indent : 0px;
+  margin : 1px 0px 0px 0px;
+}
+p.Cultivar-Table-Head-Centered {
+  font-weight : bold;
+  font-size : 0.67em;
   line-height : 1;
   text-align : center;
+  text-indent : 0px;
+  margin : 1px 0px 0px 0px;
 }
-
+p.Cultivar-Table-Text- {
+  font-size : 0.67em;
+  line-height : 1;
+  text-align : center;
+  text-indent : 0px;
+  margin : 0px;
+}
+p.Body-text {
+  font-size : 0.75em;
+  line-height : 1.11;
+  text-indent : 0px;
+  margin : 0px 0px 8px 0px;
+}
+p.Body-text-before-list {
+  font-size : 0.75em;
+  line-height : 1.11;
+  text-indent : 0px;
+  margin : 0px;
+}
+p.Authors-Byline {
+  font-size : 0.75em;
+  font-variant : small-caps;
+  line-height : 1.22;
+  text-align : center;
+  text-indent : 0px;
+  margin : 0px;
+}
+p.Article-Main-Head {
+  font-family : Helvetica, sans-serif;
+  font-size : 0.92em;
+  font-variant : small-caps;
+  line-height : 1.09;
+  text-indent : 0px;
+  margin : 2px 0px 0px 0px;
+}
+li.Numbered-List {
+  font-size : 0.75em;
+  line-height : 1.11;
+  margin-right : 0px;
+  margin-top : 0px;
+  margin-bottom : 2px;
+}
+p.Article-SubHead {
+  font-family : Helvetica, sans-serif;
+  font-size : 0.75em;
+  font-variant : small-caps;
+  line-height : 1.11;
+  text-indent : 0px;
+  margin : 2px 0px 0px 0px;
+}
+p.Article-References {
+  font-size : 0.75em;
+  line-height : 1.11;
+  text-indent : -15px;
+  margin : 0px 0px 4px 15px;
+}
 p.Cultivar-Table-Notes {
+  font-size : 0.67em;
   line-height : 1.13;
+  text-indent : 0px;
   margin : 0px 0px 0px 5px;
 }
-
 p.Cultivar-Table-Intro-Text {
   font-size : 0.75em;
   line-height : 1.11;
+  text-indent : 0px;
+  margin : 0px;
 }
-
-p.Cultivar-Table-Head-Centered {
-  font-weight : bold;
-  line-height : 1;
-  text-align : center;
-  margin : 1px 0px 0px 0px;
+p.Note-Article-References {
+  font-size : 0.75em;
+  line-height : 1.11;
+  text-indent : 0px;
+  margin : 0px 0px 8px 0px;
 }
-
-p.Cultivar-Table-Column-Left {
-  line-height : 1;
-  margin : 0px 0px 0px 4px;
+p.cultivar-head-TofC {
+  font-family : Helvetica, sans-serif;
+  font-size : 0.83em;
+  line-height : 1.4;
+  text-indent : 0px;
+  margin : 7px 0px 0px 0px;
 }
-
+li.Numbered-List---lc-letters {
+  font-size : 0.75em;
+  line-height : 1.11;
+  margin-right : 0px;
+  margin-top : 0px;
+  margin-bottom : 2px;
+}
+p.Indented-List {
+  font-size : 0.75em;
+  line-height : 1.11;
+  text-indent : 0px;
+  margin : 0px 0px 0px 14px;
+}
+p.TableofContentsIndented {
+  font-size : 0.71em;
+  line-height : 1.15;
+  text-indent : 0px;
+  margin : 2px 0px 0px 18px;
+}
+p.caus-symp-text {
+  font-size : 0.75em;
+  line-height : 1.11;
+  text-indent : 0px;
+  margin : 6px 0px 0px 0px;
+}
+li.Bullet-List---Level-3 {
+  font-size : 0.75em;
+  line-height : 1.11;
+  margin-right : 0px;
+  margin-top : 0px;
+  margin-bottom : 1px;
+}
 p.para-style-override-1 {
 }
-
-p.para-style-override-2 {
-  margin-bottom : 1px;
-  margin-top : 1px;
-}
-
-table.No-Table-Style {
-  border-collapse : collapse;
-  border-width : 1px;
-  border-style : solid;
-  border-color : #000000;
-  margin-top : 4px;
-  margin-bottom : -4px;
-}
-
 table.Basic-Table {
   border-collapse : collapse;
   border-width : 1px;
@@ -176,49 +327,11 @@ table.Basic-Table {
   margin-top : 4px;
   margin-bottom : -4px;
 }
-
 table.table-style-override-1 {
   border-collapse : collapse;
 }
-
 td.Cultivar-Table-Head-Rotated {
+  padding-left : 9px;
 }
-
-td.cell-style-override-1 {
-  padding-bottom : 3px;
-  padding-right : 3px;
-  padding-top : 2px;
-}
-
-td.cell-style-override-2 {
-  padding-bottom : 4px;
-  padding-right : 4px;
-  padding-top : 4px;
-}
-
-td.cell-style-override-3 {
-  padding-bottom : 4px;
-  padding-right : 4px;
-}
-
-td.cell-style-override-4 {
-  padding-bottom : 2px;
-  padding-right : 2px;
-  padding-top : 2px;
-}
-
 div.Basic-Text-Frame {
-}
-
-#content-content .inner table {
-  display: table;
-}
-
-#table-13 {
-  border: none;
-}
-
-.H---O-Code-letters {
-  border: 1px solid #000000;
-  padding: 0 1px;
 }
