@@ -191,7 +191,7 @@
                     <div style="height: 10px;"></div>
                     Call your poison control center: 1-800-222-1222<br />
                     If the patient has collapsed or is not breathing: call 9-1-1<br />
-                    <?php print '<a href="' . base_path() . 'node/56">' ?>Poison Safety Information</a>
+                    <?php print '<a href="' . base_path() . 'safety-checklist">' ?>Poison Safety Information</a>
                   </div>
                   
                   <div class="handbooks">
@@ -207,7 +207,7 @@
             </div><!-- /footer-message-wrapper -->
           </div><!-- /main-footer-wrapper -->
         </div><!-- /main-content-wrapper -->
-        <div id="footer-gradient" class="footer-gradient full-width"><div class="copyright"><a href="http://oregonstate.edu/main/about/copyright">Copyright</a> &copy; <?php print date("Y") ?> <a href="http://oregonstate.edu">Oregon State University</a>&nbsp;&nbsp;|&nbsp;&nbsp;<?php print '<a href="' . base_path() . 'node/211">' ?>Disclaimer</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://oregonstate.edu/main/about/disclaimer/">Web Disclaimer</a></div>
+        <div id="footer-gradient" class="footer-gradient full-width"><div class="copyright"><a href="http://oregonstate.edu/main/about/copyright">Copyright</a> &copy; <?php print date("Y") ?> <a href="http://oregonstate.edu">Oregon State University</a>&nbsp;&nbsp;|&nbsp;&nbsp;<?php print '<a href="' . base_path() . 'disclaimer">' ?>Disclaimer</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://oregonstate.edu/main/about/disclaimer/">Web Disclaimer</a></div>
       </div></div>
   
       </div><!-- /page-inner -->
