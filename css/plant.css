@@ -45,6 +45,23 @@ html {
 }
 
 
+/*-----------------------------Dropdown Menu---------------------------------
+---------------------------------------------------------------------------*/
+
+#megamenu-mlid-983 .megamenu-slots-columnar {
+  width: 310px !important;
+}
+
+#megamenu-mlid-983 .megamenu-slots-columnar li {
+  width: 300px !important;
+  margin-left: 8px !important;
+}
+
+.megamenu-skin-minimal .megamenu-slot-title, .megamenu-skin-minimal .megamenu-slot-title a {
+  background-color: transparent !important;
+  text-transform: none !important;
+}
+
 /*----------------------------Indesign-Created CSS---------------------------
 ---------------------------------------------------------------------------*/
 table {
@@ -236,4 +253,9 @@ td.Cultivar-Table-Head-Rotated {
   padding-left : 9px;
 }
 div.Basic-Text-Frame {
+}
+
+.Glossary-Text {
+  margin-left: 2em;
+  text-indent: -1em;
 }
