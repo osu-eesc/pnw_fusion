@@ -191,7 +191,7 @@
                     <div style="height: 10px;"></div>
                     Call your poison control center: 1-800-222-1222<br />
                     If the patient has collapsed or is not breathing: call 9-1-1<br />
-                    <?php print '<a href="' . base_path() . 'pesticide-safety">' ?>Poison Safety Information</a>
+                    <?php print '<a href="' . base_path() . 'safety-checklist">' ?>Poison Safety Information</a>
                   </div>
                   
                   <div class="handbooks">

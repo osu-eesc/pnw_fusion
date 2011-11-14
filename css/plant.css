@@ -45,14 +45,31 @@ html {
 }
 
 
+/*-------------------------------Other CSS-----------------------------------
+---------------------------------------------------------------------------*/
+
+.node .content {
+  clear: both;
+}
+
+.Glossary-Text {
+  margin-left: 2em;
+  text-indent: -1em;
+}
+
+
 /*-----------------------------Dropdown Menu---------------------------------
 ---------------------------------------------------------------------------*/
 
-#megamenu-mlid-983 .megamenu-slots-columnar {
+#megamenu-mlid-981 .megamenu-slots-columnar,
+#megamenu-mlid-983 .megamenu-slots-columnar,
+#megamenu-mlid-984 .megamenu-slots-columnar {
   width: 310px !important;
 }
 
-#megamenu-mlid-983 .megamenu-slots-columnar li {
+#megamenu-mlid-981 .megamenu-slots-columnar li,
+#megamenu-mlid-983 .megamenu-slots-columnar li,
+#megamenu-mlid-984 .megamenu-slots-columnar li {
   width: 300px !important;
   margin-left: 8px !important;
 }
@@ -64,198 +81,102 @@ html {
 
 /*----------------------------Indesign-Created CSS---------------------------
 ---------------------------------------------------------------------------*/
-table {
-  border: 1px solid #000000;
-}
-
-tbody, thead, tfoot, tr, td, th {
-  border-style : inherit;
-  border-width : inherit;
-  border-color : inherit;
-}
 .leftFloat {
-  float : left;
-}
-.rightFloat {
-  float : right;
-}
-span.H---O-Code-letters {
-  font-size : 0.79em;
-  border: 1px solid #000000;
-  padding: 0 1px;
-}
-span.Text---Bold-Italic {
-  font-weight : bold;
-  font-style : italic;
-}
-span.Text-bold {
-  font-weight : bold;
-}
-span.Text-italics {
-  font-style : italic;
-}
-span.Helvetica-in-Text {
-  font-family : Helvetica, sans-serif;
-}
-span.Subscript {
-  vertical-align : sub;
-}
-span.Cultivar-Table-Head---superscript {
-  font-family : Helvetica, sans-serif;
-  vertical-align : super;
-}
-span.Key-Table-Superscript {
-  vertical-align : super;
-}
-span.Cultivar-Head-Bold-Oblique {
-  font-weight : bold;
-}
-span.char-style-override-1 {
-}
-span.char-style-override-2 {
-}
-span.char-style-override-3 {
-}
-span.char-style-override-4 {
-}
-span.char-style-override-5 {
-}
-span.char-style-override-6 {
-}
-span.char-style-override-7 {
-}
-span.char-style-override-8 {
-}
-p.No-Paragraph-Style {
-}
-p.Basic-Paragraph {
-}
-li.Bullet-List---Level-1 {
-  margin-right : 0px;
-  margin-top : 0px;
-  margin-bottom : 2px;
-}
-li.Bullet-List---Level-2 {
-  margin-right : 0px;
-  margin-top : 0px;
-  margin-bottom : 1px;
-}
-p.Section-Head {
-  font-family : Helvetica, sans-serif;
-  font-size : 2em;
-  text-align : center;
-  margin : 7px 0px 5px 0px;
-}
-p.Article-Title {
-  font-family : Helvetica, sans-serif;
-  font-size : 1.5em;
-  text-align : center;
-  margin : 7px 0px 5px 0px;
-}
-p.Section---Page {
-  margin : 0px 0px 8px 0px;
-}
-p.H---O-Symbol-Note {
-  font-size : 0.75em;
-  margin : 0px 0px 8px 0px;
-}
-p.Cultivar-Table-Column-Left {
-  margin : 0px 0px 0px 4px;
-}
-p.Cultivar-Table-Row-Heads {
-  font-weight : bold;
-  margin : 0px 0px 0px 4px;
-}
-p.Cultivar-Table-Head {
-  font-weight : bold;
-  margin : 1px 0px 0px 0px;
-}
-p.Cultivar-Table-Head-Centered {
-  font-weight : bold;
-  text-align : center;
-  margin : 1px 0px 0px 0px;
-}
-p.Cultivar-Table-Text- {
-  text-align : center;
-  margin : 0px;
-}
-p.Body-text {
-  margin : 0px 0px 8px 0px;
-}
-p.Body-text-before-list {
-  margin : 0px;
-}
-p.Authors-Byline {
-  text-align : center;
-  margin : 0px;
-}
-p.Article-Main-Head {
-  font-family : Helvetica, sans-serif;
-  margin : 2px 0px 0px 0px;
-}
-li.Numbered-List {
-  margin-right : 0px;
-  margin-top : 0px;
-  margin-bottom : 2px;
-}
-p.Article-SubHead {
-  font-family : Helvetica, sans-serif;
-  margin : 2px 0px 0px 0px;
-}
-p.Article-References {
-  margin : 0px 0px 4px 15px;
-}
-p.Cultivar-Table-Notes {
-  margin : 0px 0px 0px 5px;
-}
-p.Cultivar-Table-Intro-Text {
-}
-p.Note-Article-References {
-  margin : 0px 0px 8px 0px;
-}
-p.cultivar-head-TofC {
-  font-family : Helvetica, sans-serif;
-  margin : 7px 0px 0px 0px;
-}
-li.Numbered-List---lc-letters {
-  margin-right : 0px;
-  margin-top : 0px;
-  margin-bottom : 2px;
-}
-p.Indented-List {
-  margin : 0px 0px 0px 14px;
-}
-p.TableofContentsIndented {
-  margin : 2px 0px 0px 18px;
-}
-p.caus-symp-text {
-  margin : 6px 0px 0px 0px;
-}
-li.Bullet-List---Level-3 {
-  margin-right : 0px;
-  margin-top : 0px;
-  margin-bottom : 1px;
-}
-p.para-style-override-1 {
-}
-table.Basic-Table {
-  border-collapse : collapse;
-  border-width : 1px;
-  border-style : solid;
-  border-color : #000000;
-  margin-top : 4px;
-  margin-bottom : -4px;
-}
-table.table-style-override-1 {
-  border-collapse : collapse;
-}
-td.Cultivar-Table-Head-Rotated {
-  padding-left : 9px;
-}
-div.Basic-Text-Frame {
+  float: left;
 }
 
-.Glossary-Text {
-  margin-left: 2em;
-  text-indent: -1em;
+.rightFloat {
+  float: right;
+}
+
+span.Text---Bold-Italic {
+  font-weight: bold;
+  font-style: italic;
+}
+
+span.Text-bold {
+  font-weight: bold;
+}
+
+span.Text-italics {
+  font-style: italic;
+}
+
+span.Subscript {
+  vertical-align: sub;
+}
+
+span.Cultivar-Table-Head---superscript {
+  vertical-align: super;
+}
+
+span.Key-Table-Superscript {
+  vertical-align: super;
+}
+
+span.Cultivar-Head-Bold-Oblique {
+  font-weight: bold;
+  font-style: italic;
+}
+
+p.Section-Head {
+  font-variant: small-caps;
+  text-align: center;
+}
+
+p.Article-Title {
+  font-variant: small-caps;
+  text-align: center;
+}
+
+p.Cultivar-Table-Row-Heads {
+  font-weight: bold;
+}
+
+p.Cultivar-Table-Head {
+  font-weight: bold;
+}
+
+p.Cultivar-Table-Head-Centered {
+  font-weight: bold;
+  text-align: center;
+}
+
+p.Cultivar-Table-Text- {
+  text-align: center;
+}
+
+p.Authors-Byline {
+  font-variant: small-caps;
+  text-align: center;
+}
+
+p.Article-Main-Head {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+p.Article-SubHead {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+p.Article-References {
+  text-indent: -15px;
+  margin-left: 15px;
+}
+
+p.Letter-List {
+  text-indent: -15px;
+  margin-left: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  display: table !important;
+  width: auto !important;
 }
