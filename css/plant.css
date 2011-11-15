@@ -126,7 +126,8 @@ p.Section-Head {
 
 p.Article-Title {
   font-variant: small-caps;
-  text-align: center;
+  font-weight: bold;
+  font-size: 1.25em;
 }
 
 p.Cultivar-Table-Row-Heads {
@@ -148,7 +149,6 @@ p.Cultivar-Table-Text- {
 
 p.Authors-Byline {
   font-variant: small-caps;
-  text-align: center;
 }
 
 p.Article-Main-Head {
