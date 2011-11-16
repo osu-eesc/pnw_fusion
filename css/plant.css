@@ -61,12 +61,14 @@ html {
 /*-----------------------------Dropdown Menu---------------------------------
 ---------------------------------------------------------------------------*/
 
+#megamenu-mlid-980 .megamenu-slots-columnar,
 #megamenu-mlid-981 .megamenu-slots-columnar,
 #megamenu-mlid-983 .megamenu-slots-columnar,
 #megamenu-mlid-984 .megamenu-slots-columnar {
   width: 310px !important;
 }
 
+#megamenu-mlid-980 .megamenu-slots-columnar li,
 #megamenu-mlid-981 .megamenu-slots-columnar li,
 #megamenu-mlid-983 .megamenu-slots-columnar li,
 #megamenu-mlid-984 .megamenu-slots-columnar li {
