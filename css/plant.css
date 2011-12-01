@@ -186,3 +186,8 @@ table {
 .H---O-Code-letters {
   border: 1px solid #000000;
 }
+
+.Superscript---Text {
+  vertical-align: super;
+  font-size: 75%;
+}
