@@ -61,24 +61,42 @@ html {
 /*-----------------------------Dropdown Menu---------------------------------
 ---------------------------------------------------------------------------*/
 
-#megamenu-mlid-980 .megamenu-slots-columnar,
-#megamenu-mlid-981 .megamenu-slots-columnar,
-#megamenu-mlid-983 .megamenu-slots-columnar,
-#megamenu-mlid-984 .megamenu-slots-columnar {
-  width: 310px !important;
+.megamenu-slots-columnar {
+  width: auto !important;
+  white-space:nowrap;
 }
 
-#megamenu-mlid-980 .megamenu-slots-columnar li,
-#megamenu-mlid-981 .megamenu-slots-columnar li,
-#megamenu-mlid-983 .megamenu-slots-columnar li,
-#megamenu-mlid-984 .megamenu-slots-columnar li {
-  width: 300px !important;
+#megamenu-mlid-1879 .megamenu-slots-columnar {
+  width: 550px !important;
+}
+
+#megamenu-mlid-1879 .megamenu-slot-title a {
+  font-weight: bold !important;
+}
+
+.megamenu-slots-columnar li {
+  width: auto !important;
   margin-left: 8px !important;
 }
 
-.megamenu-skin-minimal .megamenu-slot-title, .megamenu-skin-minimal .megamenu-slot-title a {
+.megamenu-skin-minimal .megamenu-slot-title,
+.megamenu-skin-minimal .megamenu-slot-title a {
   background-color: transparent !important;
   text-transform: none !important;
+}
+
+.megamenu-slots-columnar li.megamenu-slot,
+#megamenu-mlid-1879 .half-1 .megamenu-item,
+#megamenu-mlid-1879 .half-2 .megamenu-item {
+  float: none !important;
+}
+
+#megamenu-mlid-1879 .half-1 {
+  float: left !important;
+}
+
+#megamenu-mlid-2067 {
+  margin-left: 245px !important;
 }
 
 /*----------------------------Indesign-Created CSS---------------------------
