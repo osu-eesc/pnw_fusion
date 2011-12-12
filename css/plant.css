@@ -66,17 +66,8 @@ html {
   white-space:nowrap;
 }
 
-#megamenu-mlid-1879 .megamenu-slots-columnar {
-  width: 550px !important;
-}
-
 #megamenu-mlid-1879 .megamenu-slot-title a {
   font-weight: bold !important;
-}
-
-.megamenu-slots-columnar li {
-  width: auto !important;
-  margin-left: 8px !important;
 }
 
 .megamenu-skin-minimal .megamenu-slot-title,
@@ -85,19 +76,32 @@ html {
   text-transform: none !important;
 }
 
-.megamenu-slots-columnar li.megamenu-slot,
-#megamenu-mlid-1879 .half-1 .megamenu-item,
-#megamenu-mlid-1879 .half-2 .megamenu-item {
+.megamenu-slots-columnar li.megamenu-slot {
   float: none !important;
 }
 
-#megamenu-mlid-1879 .half-1 {
+.megamenu-bin > li {
+  margin-left: 8px !important;
+}
+
+
+#megamenu-mlid-2113 {
   float: left !important;
 }
 
-#megamenu-mlid-2067 {
-  margin-left: 245px !important;
+#megamenu-mlid-2114 {
+  margin-left: 240px !important;
 }
+
+#megamenu-mlid-2113 ul,
+#megamenu-mlid-2114 ul {
+  margin-left: 8px !important;
+}
+
+.megamenu-menu .megamenu-slot {
+  width: auto !important;
+}
+
 
 /*----------------------------Indesign-Created CSS---------------------------
 ---------------------------------------------------------------------------*/
