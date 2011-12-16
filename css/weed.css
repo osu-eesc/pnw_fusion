@@ -48,7 +48,8 @@ html {
 /*----------------------------Indesign-Created CSS---------------------------
 ---------------------------------------------------------------------------*/
 
-p.head-major-section {
+p.head-major-section,
+p.HEAD---Major-Section {
   font-weight: bold;
   font-size: 1.67em;
   text-transform: uppercase;
@@ -56,13 +57,15 @@ p.head-major-section {
   text-align: center;
   margin: 0;
 }
-p.head-subsection {
+p.head-subsection,
+p.Head---subsection {
   font-weight: bold;
   font-size: 1.33em;
   text-align: center;
   margin: 1em 0 0 0;
 }
-p.crop {
+p.crop,
+p.Crop {
   font-weight: bold;
   font-size: 1.50;
   text-indent: 0;
@@ -70,14 +73,16 @@ p.crop {
   margin: 0;
 }
 
-p.crop-subhead {
+p.crop-subhead,
+p.Crop---subhead {
   font-weight: bold;
   font-size: 1.2em;
   text-align: center;
   margin: 0 0 0.38em 0;
 }
 
-p.author {
+p.author,
+p.Author {
   font-weight: normal;
   font-size: 0.75em;
   text-indent: 0;
@@ -86,95 +91,113 @@ p.author {
 }
 
 p.revision-date,
-div.revision-date {
+div.revision-date,
+p.Revision-Date,
+div.Revision-Date {
   margin-bottom: 1em;
   font-style: italic;
   color: #737373;
 }
 
-p.toc-section-head {
+p.toc-section-head,
+p.TOC---SECTION-HEAD {
   font-weight: bold;
   font-size: 0.71em;
   text-indent: 0;
   margin: 0 12.71em 0.53em 12.71em;
 }
-p.toc-text {
+p.toc-text,
+p.TOC---TEXT {
   font-weight: normal;
   font-size: 0.71em;
   text-indent: 0;
   margin: 0 12.71em 0.53em 12.71em;
 }
-p.subhead-1 {
+p.subhead-1,
+p.Subhead-1 {
   font-weight: bold;
   font-size: 1.75em;
   margin: 0.75em 0 0 0;
 }
-p.subhead-2 {
+p.subhead-2,
+p.Subhead-2 {
   font-weight: bold;
   font-size: 1.5em;
   text-indent: 0;
   margin: 0.41em 0;
 }
 
-p.subhead-3 {
+p.subhead-3,
+p.Subhead-3 {
   font-weight: bold;
   font-size: 1.2em;
   margin: 0.45em 0 0 0;
 }
 
-p.subhead-3-bold-oblique {
+p.subhead-3-bold-oblique,
+p.Subhead-3---bold-oblique {
   font-weight: bold;
   font-style: italic;
   font-size: 1.2em;
   text-indent: 0;
   margin: 1.80 0 0.60 0;
 }
-p.subhead-4 {
+p.subhead-4,
+p.Subhead-4 {
   font-weight: bold;
   margin: 1.41em 0 0.24em 0;
 }
 
-p.body-text {
+p.body-text,
+p.Body-text {
   margin: 0 0 0.53em 0;
 }
 
-p.body-text-normal {
+p.body-text-normal,
+p.Body-text---normal {
   margin: 0 0 1.06em 0;
 }
 
-p.body-text-oblique {
+p.body-text-oblique,
+p.Body-text---oblique {
   font-style: italic;
   margin: 0 0 0.53em 0;
 }
 
-p.body-text-block {
+p.body-text-block,
+p.Body-text---block {
   margin: 0 0 0 1em;
 }
 
-p.body-text-product {
+p.body-text-product,
+p.Body-text---product {
   font-weight: normal;
   font-size: 0.75em;
   text-indent: 0;
   margin: 0 0 0.50 1.20;
 }
-p.list-dash-indented {
+p.list-dash-indented,
+p.List---dash-indented {
   font-weight: normal;
   font-size: 0.71em;
   text-indent: 0;
   margin: 0 0 0 2.12em;
 }
 
-li.list-outdented {
+li.list-outdented,
+li.List---outdented {
   margin: 0 0 0 1.06em;
 }
 
 p.product-and-brand-name,
-.product-and-brand-name-new-column {
+.product-and-brand-name-new-column,
+p.Product-and-Brand-name {
   font-weight: bold;
   margin: 1.33em 0 0.44em 0;
 }
 
-p.chemname {
+p.chemname,
+p.chemName {
   font-weight: bold;
   font-size: 0.75em;
   text-transform: uppercase;
@@ -182,60 +205,71 @@ p.chemname {
   margin: 1.33em 0 0.44em 0;
 }
 
-p.product-text {
+p.product-text,
+p.Product---text {
   margin: 0 0 0.35em 2.12em;
 }
 
-p.product-text-fix-orphan {
+p.product-text-fix-orphan,
+p.Product---text-fix-orphan {
   font-weight: normal;
   font-size: 0.71em;
   text-indent: 0;
   margin: 0 0 0.35em 2.12em;
 }
 
-p.table-bold {
+p.table-bold,
+p.Table---bold {
   font-weight: bold;
   margin: 0;
 }
 
-p.table-text {
+p.table-text,
+p.Table---text {
   margin: 0;
 }
 
-p.table-text-small {
+p.table-text-small,
+p.Table-text---small {
   margin: 0;
 }
-p.table-text-vertical {
+p.table-text-vertical,
+p.Table-text---vertical {
   font-weight: normal;
   font-size: 0.62em;
   text-indent: 0;
   margin: 0;
 }
 
-p.table-footer {
+p.table-footer,
+p.Table---footer {
   font-size: 0.8em;
   margin: 0.64em 0 0 0;
 }
 
-p.table-centered-text {
+p.table-centered-text,
+p.Table---centered-text {
   text-align: center;
   margin: 0;
 }
 
-p.table-italic {
+p.table-italic,
+p.Table---italic {
   font-weight: bold;
   font-size: 0.67em;
   text-indent: 0;
   margin: 0;
 }
-p.table-heading {
+p.table-heading,
+p.Table-Heading {
   font-weight: bold;
   font-size: 1em;
   text-indent: 0;
   text-align: center;
   margin: 0;
 }
-p.table-head {
+p.table-head,
+p.Table-Head {
   font-weight: bold;
   font-size: 1.33em;
   text-indent: 0;
@@ -243,11 +277,13 @@ p.table-head {
   margin: 0;
 }
 
-p.table-head-second-line-description {
+p.table-head-second-line-description,
+p.Table-Head---second-line-description {
   margin: 0.56em 0;
 }
 
-p.table-head-continued {
+p.table-head-continued,
+p.Table-Head---continued {
   font-weight: bold;
   font-size: 0.67em;
   text-transform: uppercase;
@@ -255,114 +291,134 @@ p.table-head-continued {
   text-align: right;
   margin: 0.56em 0;
 }
-li.list-outdented-numbered {
+li.list-outdented-numbered,
+li.List---outdented-numbered {
   margin: 0 0 0.53em 2.12em;
 }
 
-li.list-em-dash-level-two {
+li.list-em-dash-level-two,
+li.List---em-dash--level-two {
   list-style-image: url("../images/menu-dash.png"); 
   margin: 0 0 0 3.71em;
 }
 
-li.list-bullets-level-three {
+li.list-bullets-level-three,
+li.List---bullets--level-three {
   margin: 0 0 0 5.82em;
 }
 
-p.problem-weeds {
+p.problem-weeds,
+p.Problem-Weeds {
   font-weight: bold;
   text-transform: uppercase;
   margin: 1.33em 0 0 0;
 }
-p.authors-and-contributors-frontmatter- {
+p.authors-and-contributors-frontmatter-,
+p.Authors-and-Contributors--frontmatter- {
   margin: 0 0 0.53em 3.71em;
 }
-p.billboard-heading {
+p.billboard-heading,
+p.Billboard-heading {
   font-weight: bold;
   font-size: 0.92em;
   text-indent: 0;
   text-align: center;
   margin: 0.73em 0;
 }
-p.glossary-entry {
+p.glossary-entry,
+p.Glossary-Entry {
   font-weight: normal;
   text-indent: -1em;
   margin: 0 0 0.50 1em;
 }
-p.main-toc-major-section-entry {
+p.main-toc-major-section-entry,
+p.Main-TOC---Major-section-entry {
   font-weight: bold;
   font-size: 0.71em;
   text-indent: 0;
   margin: 0 0 0.21em 0;
 }
-p.main-toc-entry-level-2 {
+p.main-toc-entry-level-2,
+p.Main-TOC---Entry--level-2 {
   font-weight: normal;
   font-size: 0.71em;
   text-indent: 0;
   margin: 0 0 0.21em 1.06em;
 }
-p.main-toc-entry-level-3 {
+p.main-toc-entry-level-3,
+p.Main-TOC---Entry--level-3 {
   font-weight: normal;
   font-size: 0.71em;
   text-indent: 0;
   margin: 0 0 0.21em 2.12em;
 }
-p.index-section-head {
+p.index-section-head,
+p.Index-Section-Head {
   font-weight: bold;
   font-size: 1em;
   text-indent: 0;
   margin: 0.60 0;
 }
-p.index-level-1 {
+p.index-level-1,
+p.Index-Level-1 {
   font-weight: normal;
   font-size: 0.83em;
   text-indent: -2.80;
   margin: 0 0 0 2.80;
 }
-p.index-level-2 {
+p.index-level-2,
+p.Index-Level-2 {
   font-weight: normal;
   font-size: 0.83em;
   text-indent: -2.10;
   margin: 0 0 0 2.80;
 }
-p.index-level-3 {
+p.index-level-3,
+p.Index-Level-3 {
   font-weight: normal;
   font-size: 0.83em;
   text-indent: -1.40;
   margin: 0 0 0 2.80;
 }
-span.keep-line-together {
-  }
+span.s-metolachlor-text,
 span.s-metolachlor-text {
   font-weight: normal;
 }
+span.s-metolachlor-bold,
 span.s-metolachlor-bold {
   font-weight: bold;
 }
 
+span.oblique,
 span.oblique {
   font-style: italic;
 }
 
-span.bold-oblique {
+span.bold-oblique,
+span.Bold-Oblique {
   font-weight: bold;
   font-style: italic;
 }
 
-span.grey-bold-oblique {
+span.grey-bold-oblique,
+span.GREY-Bold-Oblique {
   font-weight: bold;
   font-style: italic;
   color: #737373;
 }
 
-span.grey-bold {
+span.grey-bold,
+span.GREY-BOLD {
   font-weight: bold;
   color: #737373;
 }
 
+span.superscript,
 span.superscript {
   vertical-align: super;
 }
 
+span.subscript,
 span.subscript {
   vertical-align: sub;
 }
@@ -371,23 +427,28 @@ td {
   border: 1px solid #000000;
 }
 
-td.x5-k {
+td.x5-k,
+td.x5--K {
   background-color: #EFEFEF;
 }
 
-td.x10-k {
+td.x10-k,
+td.x10--K {
   background-color: #DFDFDF;
 }
 
-td.x20-k {
+td.x20-k,
+td.x20--K {
   background-color: #AFAFAF;
 }
 
-td.x30-k {
+td.x30-k,
+td.x30--K {
   background-color: #8F8F8F;
 }
 
-span.zapf-checkmark {
+span.zapf-checkmark,
+span.Zapf-checkmark {
   font-family: "Zapf Dingbats";
   font-weight: normal;
   font-style: normal;
