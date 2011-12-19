@@ -220,3 +220,8 @@ table {
   vertical-align: super;
   font-size: 75%;
 }
+
+.cultivar-head-no-h3 {
+  font-size: 1.25em;
+  font-weight: bold;
+}
