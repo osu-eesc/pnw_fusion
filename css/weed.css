@@ -491,5 +491,9 @@ span.Zapf-checkmark {
   div.view-display-id-block_2 {
     text-transform: lowercase;
   }
+  
+  div.view-handbook-announcement {
+    text-transform: none;
+  }
 
 
