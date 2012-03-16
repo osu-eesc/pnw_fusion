@@ -214,6 +214,7 @@ table {
 .H---O-Code-letters {
   border: 1px solid #000000;
   font-size: 75%;
+  padding: 0 1px;
 }
 
 .Superscript---Text {
