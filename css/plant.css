@@ -185,11 +185,14 @@ p.Article-Main-Head {
   font-size: 1.5em;
   font-weight: bold;
   font-variant: small-caps;
+  margin-bottom:  0.25em;
 }
 
 p.Article-SubHead {
   font-weight: bold;
   font-variant: small-caps;
+  font-size: 1.25em;
+  margin-bottom:  0.25em;
 }
 
 p.Article-References {
@@ -250,9 +253,27 @@ table#edit-field-pnw-announcement-text-0-value_tbl.mceLayout {
 		background-color : #e6e6e6;
 	}
 
-	
-ul li.Bullet-List---Level-1,
-ul li.Bullet-List---Level-2,
+ul li.Bullet-List---Level-1 {
+  list-style-type: disc;
+}
+
+ul li.Bullet-List---Level-2 {
+  list-style-type: circle;
+}
+
+ul li.Bullet-List---Level-3 {
+  list-style-type: square;
+}
+
+ul li.Bullet-List---Level-1   {
+  list-style-image: none;
+  list-t
+  
+}
+ul li.Bullet-List---Level-2   {
+  list-style-image: none;
+}
+
 ul li.Bullet-List---Level-3   {
   list-style-image: none;
 }
@@ -271,4 +292,8 @@ div#node-1835.node div.inner div.content div.Basic-Text-Frame table#table-1.Basi
 
 div#node-1835.node div.inner div.content div.Basic-Text-Frame table#table-1.Basic-Table thead tr td {
   padding: 3px 10px;
+}
+
+.Indented-List {
+  margin-left: 12px;
 }
