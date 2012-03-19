@@ -157,7 +157,13 @@ p.Section-Head {
 p.Article-Title {
   font-variant: small-caps;
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 1.4em;
+}
+
+p.Article-Title---2nd-level {
+    font-size: 1.2em;
+    font-variant: small-caps;
+    font-weight: bold;
 }
 
 p.Cultivar-Table-Row-Heads {
