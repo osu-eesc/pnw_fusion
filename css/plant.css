@@ -157,11 +157,11 @@ p.Section-Head {
 p.Article-Title {
   font-variant: small-caps;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 
 p.Article-Title---2nd-level {
-    font-size: 1.2em;
+    font-size: 1.25em;
     font-variant: small-caps;
     font-weight: bold;
 }
