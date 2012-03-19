@@ -234,3 +234,31 @@ table tbody tr td {
 table tbody tr td p {
   margin: 0;
 }
+
+/* fixes wysiwyg table width */
+table#edit-field-pnw-announcement-text-0-value_tbl.mceLayout {
+   width: 95% !important;
+}
+
+/* more inDesign generated styles */
+
+	td.Cell-Style-2 {
+		background-color : #e6e6e6;
+	}
+	td.Cell-Style-2A {
+		background-color : #e6e6e6;
+	}
+	
+ul li.Bullet-List---Level-1,
+ul li.Bullet-List---Level-2,
+ul li.Bullet-List---Level-3   {
+  list-style-image: none;
+}
+
+.Table---Hanging-Indent---2nd-level  {
+  margin-left: 12px;
+}
+
+table tbody tr td p.Table---Hanging-indent para-style-override-2 {
+  margin-left: 12px;
+}
