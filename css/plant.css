@@ -337,3 +337,7 @@ span.Superscript {
   vertical-align: super;
   font-size: 75%;
 }
+
+.links {
+  margin-top: 1em;
+}
