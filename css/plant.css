@@ -260,14 +260,15 @@ table#edit-field-pnw-announcement-text-0-value_tbl.mceLayout {
 }
 
 /* more inDesign generated styles */
-  td.Cell-Style-1,
-  td.Cell-Style-1A {
-		background-color : #F7F7F7;
-	}
-	td.Cell-Style-2,
-	td.Cell-Style-2A {
-		background-color : #e6e6e6;
-	}
+td.Cell-Style-1,
+td.Cell-Style-1A,
+td.Cell-Style-1,
+td.Cell-Style-1,
+td.Cell-Style-1B,
+td.Cell-Style-1C {
+  background-color : #F7F7F7;
+}
+
 
 ul li.Bullet-List---Level-1 {
   list-style-type: disc;
