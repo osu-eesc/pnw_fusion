@@ -150,7 +150,7 @@ span.Cultivar-Head-Bold-Oblique {
 }
 
 p.Body-text {
-  margin: 0;
+ /*  margin: 0; */
 }
 
 p.Section-Head {
@@ -166,6 +166,12 @@ p.Article-Title {
 
 p.Article-Title---2nd-level {
     font-size: 1.4em;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+p.Article-Title---3rd-level {
+    font-size: 1.25em;
     font-variant: small-caps;
     font-weight: bold;
 }
@@ -340,4 +346,27 @@ span.Superscript {
 
 .links {
   margin-top: 1em;
+}
+
+.Helvetica-Bold-Oblique,
+.char-style-override-8 {
+  font-style: italic;
+}
+
+div#imageData div#imageDetails {
+  text-align: left;
+}
+
+
+/*#node-1812.node table tbody tr {
+  border: 1px solid black;
+}
+
+#node-1812.node table tbody tr td{
+  border: none;
+}*/
+
+p.Cultivar-Table-Notes {
+  margin-left: 24px;
+      text-indent: -12px;
 }
