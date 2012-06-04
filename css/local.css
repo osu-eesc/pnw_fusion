@@ -454,7 +454,8 @@
   #sidebar-first h2 {
     font-size: 140%;
   }
-  #block-google_cse-0 h2 {
+  #block-google_cse-0 h2,
+  #block-search-0 h2 {
     font-size: 120%;  
   }
   .form-submit{
