@@ -692,3 +692,9 @@ ul.pager a.views-throbbing {
 	}
 	/*--End pager amination control--*/
 /*--End pager style override--*/
+
+  p.See-also-Links,
+  p.See-also-Text {
+    margin: 0;
+  } 
+  
