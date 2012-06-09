@@ -140,7 +140,7 @@
 .megamenu-skin-minimal .megamenu-link {
   font-size:85%;
 }
-#megamenu-mlid-894 .megamenu-bin {
+#megamenu-mlid-894 .megamenu-bin { /* contents */
   width: 644px !important;
 }
 #megamenu-mlid-894 .megamenu-bin > li {
@@ -177,6 +177,19 @@
 .megamenu-item a:hover {
   color: #0F7D85;
 }
+
+/* hack to make biological control and problem weeds look like section title */
+li#megamenu-mlid-1253.megamenu-item,
+li#megamenu-mlid-1314.megamenu-item {
+  margin-top: 1em;
+}
+
+li#megamenu-mlid-1253.megamenu-item a.menu-1253,
+li#megamenu-mlid-1314.megamenu-item a.menu-1314 {
+  font-weight: bold !important;
+}
+
+
 /*---------------------------Overall Theme Look------------------------------
 ---------------------------------------------------------------------------*/
 
