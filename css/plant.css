@@ -274,7 +274,8 @@ td.Cell-Style-1C {
 
 
 /* cell styles are now just 1, 2, or 3 */
-.Cell-Style-1 {
+.Cell-Style-1,
+.Cultivar-Table-Head-Rotated {
   padding: 3px;
 	background-color : #fff;
 }
