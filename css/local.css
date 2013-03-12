@@ -711,6 +711,7 @@ ul.pager a.views-throbbing {
   p.See-also-text,
   p.See-also-Text,
   p.See-also-Intro,
-  p.See-also-intro {
+  p.See-also-intro,
+	p.See-link {
     margin: 0;
   } 
