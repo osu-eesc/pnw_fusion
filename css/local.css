@@ -714,4 +714,10 @@ ul.pager a.views-throbbing {
   p.See-also-intro,
 	p.See-link {
     margin: 0;
-  } 
+  }
+
+form#search-block-form input.form-text {
+  color: #0F7D85;
+  font-style: italic;
+  font-size: 100%;
+}
