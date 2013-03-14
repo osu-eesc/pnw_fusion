@@ -402,3 +402,7 @@ form#views-exposed-form-host-disease-descriptions-page div.views-exposed-widget 
   margin: 0;
   padding: 0;
 }
+
+#block-block-1.block {
+  margin-top: 1em;
+}
