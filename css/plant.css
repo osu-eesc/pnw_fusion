@@ -393,3 +393,12 @@ p.Cultivar-Table-Notes {
   margin-left: 24px;
   text-indent: -12px;
 }
+
+input#edit-submit-host-disease-descriptions.form-submit {
+  margin-top: 3.6em;
+}
+
+form#views-exposed-form-host-disease-descriptions-page div.views-exposed-widget {
+  margin: 0;
+  padding: 0;
+}
