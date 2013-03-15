@@ -406,3 +406,22 @@ form#views-exposed-form-host-disease-descriptions-page div.views-exposed-widget 
 #block-block-1.block {
   margin-top: 1em;
 }
+
+
+.prosper-gray-rounded-style .content {
+  background-color: #F1F1F1;
+  border-bottom: 1px solid #C8C8C8;
+  border-left: 1px solid #C8C8C8;
+  border-right: 1px solid #C8C8C8;
+}
+
+.prosper-gray-rounded-style .views-field-field-link-url {
+  padding-bottom: .25em;
+  padding-top: .25em;
+}
+
+.float-right {
+  float: right;
+}
+
+
