@@ -721,3 +721,7 @@ form#search-block-form input.form-text {
   font-style: italic;
   font-size: 100%;
 }
+
+.float-right {
+  float: right;
+}
