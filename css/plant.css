@@ -311,10 +311,12 @@ ul li.Bullet-List---Level-1   {
 }
 ul li.Bullet-List---Level-2   {
   list-style-image: none;
+  margin-left: 20px;
 }
 
 ul li.Bullet-List---Level-3   {
   list-style-image: none;
+  margin-left: 40px;
 }
 
 .Table---Hanging-Indent---2nd-level  {
