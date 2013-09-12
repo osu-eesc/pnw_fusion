@@ -9,7 +9,7 @@
     <?php print $head; ?>
     <?php print $styles; ?>
     <?php print $setting_styles; ?>
-	  <link href="<?php print $base_path.drupal_get_path('theme', 'pnw_fusion') . '/css/' . $site_handbook . '.css';?>" media="all" rel="stylesheet">
+	  <link href="<?php print $base_path.drupal_get_path('theme', 'pnw_fusion') . '/css/' . $site_handbook . '.css';?>" media="all" rel="stylesheet" />
     <!--[if IE 8]>
       <?php print $ie8_styles; ?>
     <![endif]-->
@@ -60,9 +60,9 @@
                           <span id="site-name">
                             <a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>">
                               <![if gt IE 6]>
-                                <img src="http://<?php print $_SERVER['SERVER_NAME'] . $base_path; ?>sites/default/themes/pnw_fusion/images/eesc/<?php print $site_handbook; ?>/site_name.png"/>
+                                <img src="http://<?php print $_SERVER['SERVER_NAME'] . $base_path; ?>sites/default/themes/pnw_fusion/images/eesc/<?php print $site_handbook; ?>/site_name.png" alt="<?php print $site_name; ?> logo" />
                               <![endif]>
-                              <?php print '<!--[if lte IE 6]><img src="http://'.$_SERVER['SERVER_NAME'] . $base_path .'sites/default/themes/pnw_fusion/images/eesc/'.$site_handbook.'/site_name.gif"/><![endif]-->'; ?>
+                              <?php print '<!--[if lte IE 6]><img src="http://'.$_SERVER['SERVER_NAME'] . $base_path .'sites/default/themes/pnw_fusion/images/eesc/'. $site_handbook . '/site_name.gif" alt="' . $site_name . ' logo" /><![endif]-->'; ?>
                             </a>
                           </span>
                         <?php endif; ?>
@@ -207,8 +207,11 @@
             </div><!-- /footer-message-wrapper -->
           </div><!-- /main-footer-wrapper -->
         </div><!-- /main-content-wrapper -->
-        <div id="footer-gradient" class="footer-gradient full-width"><div class="copyright"><a href="http://oregonstate.edu/main/about/copyright">Copyright</a> &copy; <?php print date("Y") ?> <a href="http://oregonstate.edu">Oregon State University</a>&nbsp;&nbsp;|&nbsp;&nbsp;<?php print '<a href="' . base_path() . 'disclaimer">' ?>Disclaimer</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://oregonstate.edu/main/about/disclaimer/">Web Disclaimer</a></div>
-      </div></div>
+        <div id="footer-gradient" class="footer-gradient full-width">
+          <div class="copyright">
+            <a href="http://oregonstate.edu/main/about/copyright">Copyright</a> &copy; <?php print date("Y") ?> <a href="http://oregonstate.edu">Oregon State University</a>&nbsp;&nbsp;|&nbsp;&nbsp;<?php print '<a href="' . base_path() . 'disclaimer">' ?>Disclaimer</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://oregonstate.edu/main/about/disclaimer/">Web Disclaimer</a>
+          </div><!-- /copyright -->
+        </div><!-- /footer-gradient -->
   
       </div><!-- /page-inner -->
     </div><!-- /page -->

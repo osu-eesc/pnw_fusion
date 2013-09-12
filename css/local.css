@@ -706,8 +706,22 @@ ul.pager a.views-throbbing {
 	/*--End pager amination control--*/
 /*--End pager style override--*/
 
-  p.See-also-Links,
-  p.See-also-Text {
+  p.See-also-link,
+  p.See-also-Link,
+  p.See-also-text,
+  p.See-also-Text,
+  p.See-also-Intro,
+  p.See-also-intro,
+	p.See-link {
     margin: 0;
-  } 
-  
+  }
+
+form#search-block-form input.form-text {
+  color: #0F7D85;
+  font-style: italic;
+  font-size: 100%;
+}
+
+.float-right {
+  float: right;
+}

@@ -132,17 +132,20 @@ span.Text-italics {
   font-style: italic;
 }
 
-span.Subscript {
+.Subscript {
   vertical-align: sub;
+  font-size: 75%;
 }
 
 span.Cultivar-Table-Head---superscript {
   vertical-align: super;
+  font-size: 75%;
 }
 
-span.Key-Table-Superscript {
+/*span.Key-Table-Superscript {
   vertical-align: super;
-}
+  font-size: 75%;
+}*/
 
 span.Cultivar-Head-Bold-Oblique {
   font-weight: bold;
@@ -236,10 +239,10 @@ table {
   padding: 0 1px;
 }
 
-.Superscript---Text {
+/*.Superscript---Text {
   vertical-align: super;
   font-size: 75%;
-}
+}*/
 
 .cultivar-head-no-h3 {
   font-size: 1.25em;
@@ -260,13 +263,32 @@ table#edit-field-pnw-announcement-text-0-value_tbl.mceLayout {
 }
 
 /* more inDesign generated styles */
-td.Cell-Style-1,
+/*td.Cell-Style-1,
 td.Cell-Style-1A,
 td.Cell-Style-1,
 td.Cell-Style-1,
 td.Cell-Style-1B,
 td.Cell-Style-1C {
   background-color : #F7F7F7;
+}*/
+
+
+/* cell styles are now just 1, 2, or 3 */
+.Cell-Style-1,
+.Cultivar-Table-Head-Rotated {
+  padding: 3px;
+	background-color : #fff;
+}
+
+.Cell-Style-2 {
+	background-color : #F7F7F7;
+  padding: 3px;
+}
+
+.Cell-Style-3 {
+  border: none;
+	background-color : #fff;
+  padding: 3px;
 }
 
 
@@ -289,10 +311,12 @@ ul li.Bullet-List---Level-1   {
 }
 ul li.Bullet-List---Level-2   {
   list-style-image: none;
+  margin-left: 20px;
 }
 
 ul li.Bullet-List---Level-3   {
   list-style-image: none;
+  margin-left: 40px;
 }
 
 .Table---Hanging-Indent---2nd-level  {
@@ -340,7 +364,7 @@ p.numbered-list--sub- {
   margin-left: 20px;
 }
 
-span.Superscript {
+.Superscript {
   vertical-align: super;
   font-size: 75%;
 }
@@ -369,5 +393,37 @@ div#imageData div#imageDetails {
 
 p.Cultivar-Table-Notes {
   margin-left: 24px;
-      text-indent: -12px;
+  text-indent: -12px;
 }
+
+input#edit-submit-host-disease-descriptions.form-submit {
+  margin-top: 3.6em;
+}
+
+form#views-exposed-form-host-disease-descriptions-page div.views-exposed-widget {
+  margin: 0;
+  padding: 0;
+}
+
+#block-block-1.block {
+  margin-top: 1em;
+}
+
+
+.prosper-gray-rounded-style .content {
+  background-color: #F1F1F1;
+  border-bottom: 1px solid #C8C8C8;
+  border-left: 1px solid #C8C8C8;
+  border-right: 1px solid #C8C8C8;
+}
+
+.prosper-gray-rounded-style .views-field-field-link-url {
+  padding-bottom: .25em;
+  padding-top: .25em;
+}
+
+.float-right {
+  float: right;
+}
+
+
