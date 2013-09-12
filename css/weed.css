@@ -388,6 +388,7 @@ span.s-metolachlor-text {
 span.s-metolachlor-bold,
 span.s-metolachlor-bold {
   font-weight: bold;
+  font-style: italic;
 }
 
 span.oblique,
@@ -497,4 +498,20 @@ span.Zapf-checkmark {
     text-transform: none;
   }
 
+ .sidebar-first .prosper-gray-rounded-style ul li a:link, .prosper-gray-rounded-style ul li a:visited {
+    color: #0F7D85;
+}
+
+.sidebar-first .prosper-gray-rounded-style ul li, .prosper-gray-rounded-style ul li.leaf {
+    background: none;
+}
+
+/*#block-views-links_display-block_1*/  
+#sidebar-first div.block-views {
+  width: 230px !important;
+}
+
+#sidebar-first div.view-links-display li {
+    border-bottom: none;
+}
 
